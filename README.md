@@ -8,7 +8,8 @@
 ![Static Badge](https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/CSS-%23663399?style=for-the-badge&logo=css&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/JAVASCRIPT-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
-![Static Badge](https://img.shields.io/badge/overleaf--white?style=for-the-badge&logo=overleaf&logoColor=white&labelColor=%2347A141&link=https%3A%2F%2Fwww.overleaf.com%2F)
+![Static Badge](https://img.shields.io/badge/OVERLEAF-%2347A141?style=for-the-badge&logo=overleaf&logoColor=white&link=https%3A%2F%2Fwww.overleaf.com%2F)
+
 
 
 

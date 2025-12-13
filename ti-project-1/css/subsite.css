@@ -96,10 +96,10 @@ section h1 {
     text-transform: uppercase;
 }
 #s1 {
-    background-image: url(/assets/bg-1.jpg);
+    background-image: url(/assets/bg-1.webp);
 }
 #s2{ 
-    background-image: url(/assets/bg-2.jpg);
+    background-image: url(/assets/bg-2.webp);
 }
 #s3 {
     height: calc(100vh - 8rem);
@@ -108,7 +108,7 @@ section h1 {
     align-items: center;
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    background-image: url(/assets/bg-3.jpg);
+    background-image: url(/assets/bg-3.webp);
 }
 .child-container {
     width: 95%;

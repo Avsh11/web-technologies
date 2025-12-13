@@ -75,7 +75,8 @@ nav a:hover, nav a.active {
     align-items: center;
     text-align: center;
     position: relative;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('/assets/unsplash-lab.jpg');
+    /* background webp + mniejszy resolution optymalizacja */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('/assets/background.webp');
     background-size: cover;
     background-position: center;
     /* Akceleracja sprzętowa bo czasem sa problemy z mikro lagami */
@@ -92,7 +93,8 @@ nav a:hover, nav a.active {
     line-height: 1.1;
     color: var(--text-color-main);
     opacity: 0;
-    animation: jumpIn 1s ease-out forwards; 
+    /* Optymalizacja animacji krotszy czas */
+    animation: jumpIn 0.5s ease-out forwards; 
     transition: scale 0.3s ease; 
 }
 .hero-title:hover {

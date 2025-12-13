@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Zmienne zeby nie powtarzac na pale kodu + szybsza zmiana palety kolorow np */
+:root {
+    --font-primary: "Kanit", sans-serif;
+    --font-secondary: "Montserrat", sans-serif;
+    /* Kolory z palet z coolors, nazwy palet w css podstron */
+    --text-color-main: #F2F4F3;
+    --text-color-accent: #C1121F;
+    --color-main: #0A0908;
+    --color-border-dim: #222222;
+    --color-border-light: #444444;
+    --text-color-mute: #888888;
+}
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html {
+    font-size: 50%; 
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden; 
+    color: var(--text-color-main);
+    font-family: var(--font-primary);
+    background-color: var(--color-main);
+}
+/* Nawigacja - header, nav, i tak dalej, tu bez zmian, przerobione z podstron */
+header {
+    font-family: var(--font-secondary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    background-color: rgba(10, 9, 8, 0.9);
+}
+.logo {
+    font-size: 3rem;
+    color: var(--text-color-accent);
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.logo:hover {
+    transform: scale(1.35);
+}
+nav a {
+    color: var(--text-color-main);
+    font-size: 1.8rem;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+nav a:hover, nav a.active {
+    color: var(--text-color-accent);
+    border-bottom: 3px solid var(--text-color-accent);
+}
+/* Sekcja hero strony */
+.hero {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('/assets/unsplash-lab.jpg');
+    background-size: cover;
+    background-position: center;
+    /* Akceleracja sprzętowa bo czasem sa problemy z mikro lagami */
+    /* znalezione na stack overflow jak rozwiazac */
+    transform: translateZ(0); 
+    will-change: transform;
+    padding: 0 2rem;
+}
+.hero-title {
+    font-size: 11rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+    line-height: 1.1;
+    color: var(--text-color-main);
+    opacity: 0;
+    animation: jumpIn 1s ease-out forwards; 
+    transition: scale 0.3s ease; 
+}
+.hero-title:hover {
+    scale: 1.05;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+}
+.hero-container p {
+    font-size: 3.2rem;
+    font-weight: 300;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: var(--text-color-main);
+    opacity: 0; 
+    animation: jumpIn 1s ease-out 0.5s forwards; 
+}
+@keyframes jumpIn {
+    from { 
+        opacity: 0; 
+        transform: translateY(50px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+/* Sekcje główne - bloki z kontentem */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem; 
+}
+.feature-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    padding: 5rem;
+    border: 1px solid var(--color-border-dim); 
+    transition: border-color 0.3s ease;
+}
+.feature-row:hover {
+    border-color: var(--text-color-accent);
+}
+.reverse {
+    flex-direction: row-reverse;
+}
+.feature-content {
+    flex: 1;
+}
+.feature-content h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: var(--text-color-main);
+    letter-spacing: 2px;
+}
+.feature-content p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: var(--text-color-mute); 
+    text-align: left;
+}
+.feature-image {
+    flex: 1;
+    height: 400px;
+    overflow: hidden;
+}
+.feature-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+}
+.feature-row:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+.contact-section {
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+}
+.contact-wrap {
+    width: 100%;
+    max-width: 800px;
+    padding: 6rem;
+    border: 1px solid var(--color-border-dim); 
+    text-align: center;
+    transition: border-color 0.3s ease;
+}
+.contact-wrap:hover {
+    border-color: var(--text-color-accent);
+}
+.contact-wrap h2 {
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    color: var(--text-color-main);
+    margin-bottom: 5rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.form-row {
+    display: flex;
+    gap: 3rem;
+}
+input {
+    width: 100%;
+    padding: 1.5rem 0; 
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--color-border-light);
+    color: var(--text-color-main);
+    font-size: 1.8rem;
+    font-family: var(--font-primary);
+    outline: none;
+    transition: 0.3s ease;
+}
+input:focus {
+    border-color: var(--text-color-accent);
+}
+input::placeholder {
+    color: var(--text-color-mute);
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+button {
+    width: 100%;
+    padding: 2rem;
+    margin-top: 2rem;
+    background: transparent;
+    color: var(--text-color-accent);
+    border: 1px solid var(--text-color-accent);
+    font-size: 1.6rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+button:hover {
+    background: var(--text-color-accent);
+    color: var(--text-color-main);
+}
+/* Stopka, ta sama co z podstron, ulepszenie poprrzedniej co byla */
+footer {
+    height: 8rem; 
+    width: 100%;
+    background-color: var(--color-main); 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    scroll-snap-align: none;
+}
+footer p {
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+    color: var(--text-color-main);
+}
+/* Responsywnosc */
+@media (max-width: 1200px) {
+    .hero-title {
+        font-size: 8rem;
+    }
+    .hero-container p {
+        font-size: 2.4rem;
+        padding: 0 2rem;
+    }
+    .container {
+        padding: 8rem 2rem;
+        gap: 8rem;
+    }
+}
+@media (max-width: 900px) {
+    .hero-title {
+        font-size: 6rem;
+    }
+    .feature-row {
+        flex-direction: column;
+        text-align: center; 
+        gap: 4rem;
+        padding: 4rem;
+    }
+    .reverse {
+        flex-direction: column;
+    }
+    .feature-content p {
+        text-align: center; 
+    }
+    .feature-image {
+        width: 100%;
+        height: 300px; 
+    }
+    .contact-wrap {
+        padding: 5rem 3rem;
+    }
+    .form-row {
+        flex-direction: column; 
+        gap: 2rem;
+    }
+}
+@media (max-width: 600px) {
+    header {
+        padding: 2rem;
+        flex-direction: column;
+        gap: 2rem;
+        /* Na telefonach czasem ponizej 90% moze byc zbyt przezroczyste i tekst bedzie sie mogl z logo gryzc */
+        background-color: rgba(10, 9, 8, 0.95);
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+    nav a {
+        margin: 0;
+        font-size: 1.6rem;
+    }
+    .hero-title {
+        font-size: 4.5rem; 
+    }
+    .hero-container p {
+        font-size: 1.8rem;
+    }
+    .feature-row {
+        padding: 3rem 2rem; 
+    }
+    .feature-content h2 {
+        font-size: 2.4rem;
+    }
+    .contact-wrap h2 {
+        font-size: 2.8rem;
+    }
+    .contact-section {
+        padding-bottom: 5rem;
+    }
+}
+
+
+
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.15)  15 DEC 2025 18:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.15)  15 DEC 2025 19:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -618,14 +618,33 @@ File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
 \AM@lof@heading=\toks46
 \c@AM@survey=\count344
 \AM@templatesizebox=\box76
+) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/dirtree\dirtree.sty
+Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
+ (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/generic/dirtree\dirtree.tex `dirtree' v0.32, 2012/12/11 (jcc)
+\DT@offset=\dimen289
+\DT@width=\dimen290
+\DT@sep=\dimen291
+\DT@all=\dimen292
+\DT@rulewidth=\dimen293
+\DT@dotwidth=\dimen294
+\DTbaselineskip=\dimen295
+\DT@counti=\count345
+\DT@countii=\count346
+\DT@countiii=\count347
+\DT@countiv=\count348
+\DT@indent=\dimen296
+\DT@parskip=\dimen297
+\DT@baselineskip=\dimen298
+)
+File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
 ) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count345
-\csq@gtype=\count346
-\csq@glevel=\count347
-\csq@qlevel=\count348
-\csq@maxlvl=\count349
-\csq@tshold=\count350
+\csq@reset=\count349
+\csq@gtype=\count350
+\csq@glevel=\count351
+\csq@qlevel=\count352
+\csq@maxlvl=\count353
+\csq@tshold=\count354
 \csq@ltx@everypar=\toks47
  (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
@@ -649,41 +668,41 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'polish'.
  (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count351
+\l__color_backend_stack_int=\count355
 \l__pdf_internal_box=\box77
 ) (praca.aux (chapters/chapter001.aux) (chapters/chapter002.aux) (chapters/chapter003.aux) (chapters/chapter004.aux) (chapters/chapter005.aux) (chapters/chapter006.aux) (chapters/chapter007.aux) (chapters/chapter008.aux))
 \openout1 = `praca.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 201.
+LaTeX Font Info:    ... okay on input line 201.
  (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count352
-\scratchdimen=\dimen289
+\scratchcounter=\count356
+\scratchdimen=\dimen299
 \scratchbox=\box78
-\nofMPsegments=\count353
-\nofMParguments=\count354
+\nofMPsegments=\count357
+\nofMParguments=\count358
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count355
-\MPscratchDim=\dimen290
-\MPnumerator=\count356
-\makeMPintoPDFobject=\count357
+\MPscratchCnt=\count359
+\MPscratchDim=\dimen300
+\MPnumerator=\count360
+\makeMPintoPDFobject=\count361
 \everyMPtoPDFconversion=\toks49
 ) (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -734,17 +753,17 @@ Package caption Info: End \AtBeginDocument code.
 (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-polish.trsl
 File: translations-basic-dictionary-polish.trsl (polish translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `polish'. on input line 200.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `polish'. on input line 201.
  (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 200.
-Package hyperref Info: Link coloring OFF on input line 200.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 201.
+Package hyperref Info: Link coloring OFF on input line 201.
  (praca.out) (praca.out)
 \@outlinefile=\write3
 \openout3 = `praca.out'.
 
-\c@lstlisting=\count358
+\c@lstlisting=\count362
  (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
  (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
@@ -754,37 +773,37 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 202.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 203.
  (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 202.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 203.
  (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 202.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 203.
  (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figures/ur.jpg, id=71, 134.00063pt x 134.00063pt>
+<figures/ur.jpg, id=95, 134.00063pt x 134.00063pt>
 File: figures/ur.jpg Graphic file (type jpg)
 <use figures/ur.jpg>
-Package pdftex.def Info: figures/ur.jpg  used on input line 202.
+Package pdftex.def Info: figures/ur.jpg  used on input line 203.
 (pdftex.def)             Requested size: 93.79977pt x 93.79977pt.
 
-Overfull \hbox (1.90001pt too wide) in paragraph at lines 202--202
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 203--203
 $[]$  $[]$ 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 202.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 203.
 [1
 
 {C:/Users/PC/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./figures/ur.jpg>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.202 \titlepages
+l.203 \titlepages
                   [1
 
 
@@ -805,7 +824,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 9--221
+Underfull \hbox (badness 10000) in paragraph at lines 9--222
 
  []
 
@@ -853,17 +872,32 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
  (chapters/chapter003.tex
 Rozdzia\l  3.
-) [9
+
+Underfull \hbox (badness 2689) in paragraph at lines 35--36
+[]\T1/ptm/b/n/10 Reset sty-lów\T1/ptm/m/n/10 : Za-sto-so-wano glo-balny re-set (\T1/pcr/m/n/10 margin: 0; padding: 0; box-sizing:
+ []
+
+[9
 
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+[]\T1/ptm/m/n/10 Wykorzystano wªa-±ci-wo-±ci \T1/pcr/m/n/10 scroll-snap-type: y mandatory \T1/ptm/m/n/10 dla kon-te-nera oraz
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 51--52
+\T1/pcr/m/n/10 scroll-snap-align: start \T1/ptm/m/n/10 dla sek-cji. Dzi¦ki temu u»yt-kow-nik pod-czas prze-wi-ja-nia
+ []
+
+) [10]
 \openout2 = `chapters/chapter004.aux'.
 
  (chapters/chapter004.tex
 Rozdzia\l  4.
-) [10
+) [11
 
 
 
@@ -873,7 +907,7 @@ Rozdzia\l  4.
 
  (chapters/chapter005.tex
 Rozdzia\l  5.
-) [11
+) [12
 
 
 
@@ -897,12 +931,12 @@ Package epstopdf Info: Source file: <figures/6.1.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/6.1-eps-converted-to.pdf figures/6.1.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
-<figures/6.1-eps-converted-to.pdf, id=149, 106.3975pt x 17.06375pt>
+<figures/6.1-eps-converted-to.pdf, id=183, 106.3975pt x 17.06375pt>
 File: figures/6.1-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/6.1-eps-converted-to.pdf>
 Package pdftex.def Info: figures/6.1-eps-converted-to.pdf  used on input line 30.
 (pdftex.def)             Requested size: 426.79135pt x 68.46175pt.
-) [12
+) [13
 
 
 
@@ -912,7 +946,7 @@ Package pdftex.def Info: figures/6.1-eps-converted-to.pdf  used on input line 30
 
  (chapters/chapter007.tex
 Rozdzia\l  7.
-) [13
+) [14
 
 
 
@@ -922,12 +956,12 @@ Rozdzia\l  7.
 
  (chapters/chapter008.tex
 Rozdzia\l  8.
-) [14
+) [15
 
 
 
 
-] (praca.bbl) [15
+] (praca.bbl) [16
 
 
 
@@ -935,36 +969,36 @@ Rozdzia\l  8.
 \tf@lof=\write5
 \openout5 = `praca.lof'.
 
- [16
+ [17
 
 ]
-<figures/oswiadczenie.pdf, id=203, 591.16862pt x 839.05469pt>
+<figures/oswiadczenie.pdf, id=237, 591.16862pt x 839.05469pt>
 File: figures/oswiadczenie.pdf Graphic file (type pdf)
 <use figures/oswiadczenie.pdf>
-Package pdftex.def Info: figures/oswiadczenie.pdf  used on input line 274.
+Package pdftex.def Info: figures/oswiadczenie.pdf  used on input line 275.
 (pdftex.def)             Requested size: 591.16718pt x 839.05264pt.
-<figures/oswiadczenie.pdf, id=205, page=1, 591.16862pt x 839.05469pt>
+<figures/oswiadczenie.pdf, id=239, page=1, 591.16862pt x 839.05469pt>
 File: figures/oswiadczenie.pdf Graphic file (type pdf)
 <use figures/oswiadczenie.pdf, page 1>
-Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 274.
+Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 275.
 (pdftex.def)             Requested size: 597.54466pt x 845.09561pt.
 File: figures/oswiadczenie.pdf Graphic file (type pdf)
 <use figures/oswiadczenie.pdf, page 1>
-Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 274.
+Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 275.
 (pdftex.def)             Requested size: 591.19423pt x 839.09105pt.
 File: figures/oswiadczenie.pdf Graphic file (type pdf)
 <use figures/oswiadczenie.pdf, page 1>
-Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 274.
+Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 275.
 (pdftex.def)             Requested size: 591.19423pt x 839.09105pt.
 File: figures/oswiadczenie.pdf Graphic file (type pdf)
 <use figures/oswiadczenie.pdf, page 1>
-Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 274.
+Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 275.
 (pdftex.def)             Requested size: 591.19423pt x 839.09105pt.
 File: figures/oswiadczenie.pdf Graphic file (type pdf)
 <use figures/oswiadczenie.pdf, page 1>
-Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 274.
+Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 275.
 (pdftex.def)             Requested size: 591.19423pt x 839.09105pt.
- [17
+ [18
 
 
 
@@ -979,20 +1013,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `praca.out' has not changed.
-(rerunfilecheck)             Checksum: 3196CE705A24C76EF64967070414AD6B;3042.
+(rerunfilecheck)             Checksum: 89C171E59A25C302CA2F48265DE6C2E3;4324.
  ) 
 Here is how much of TeX's memory you used:
- 23810 strings out of 474486
- 456186 string characters out of 5745170
- 1935542 words of memory out of 5000000
- 45609 multiletter control sequences out of 15000+600000
+ 23926 strings out of 474486
+ 458042 string characters out of 5745170
+ 1938542 words of memory out of 5000000
+ 45711 multiletter control sequences out of 15000+600000
  618582 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,17n,94p,774b,1231s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on praca.pdf (15 pages, 227271 bytes).
+Output written on praca.pdf (16 pages, 244663 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 301 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
+ 210 words of extra memory for PDF output out of 10000 (max. 10000000)
 

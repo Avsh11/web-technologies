@@ -1,0 +1,16 @@
+\babel@toc {polish}{}\relax 
+\contentsline {chapter}{\numberline {1}Wprowadzenie}{6}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Opis założeń projektu}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Wymagania funkcjonalne}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Wymagania niefunkcjonalne}{8}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Opis struktury projektu}{9}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Harmonogram realizacji projektu}{10}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Etapy realizacji projektu}{10}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Wykres Gantta}{10}{section.4.2}%
+\contentsline {section}{\numberline {4.3}System kontroli wersji}{10}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Prezentacja warstwy użytkowej projektu}{11}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Instrukcja uruchomieniowa}{12}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Podsumowanie}{14}{chapter.7}%
+\contentsline {section}{\textbf {Bibliografia}}{15}{Item.19}%
+\contentsline {section}{\textbf {Spis rysunków}}{16}{chapter*.2}%
+\contentsline {section}{\textbf {Oświadczenie studenta o samodzielności pracy}}{17}{section*.3}%

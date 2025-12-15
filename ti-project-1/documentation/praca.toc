@@ -10,7 +10,9 @@
 \contentsline {section}{\numberline {4.3}System kontroli wersji}{10}{section.4.3}%
 \contentsline {chapter}{\numberline {5}Prezentacja warstwy użytkowej projektu}{11}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Instrukcja uruchomieniowa}{12}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Podsumowanie}{14}{chapter.7}%
-\contentsline {section}{\textbf {Bibliografia}}{15}{Item.19}%
+\contentsline {chapter}{\numberline {7}Testowanie poprawności i stopnia optymalizacji kodu}{13}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Walidacja HTML oraz CSS - W3C}{13}{section.7.1}%
+\contentsline {chapter}{\numberline {8}Podsumowanie}{14}{chapter.8}%
+\contentsline {section}{\textbf {Bibliografia}}{15}{Item.23}%
 \contentsline {section}{\textbf {Spis rysunków}}{16}{chapter*.2}%
 \contentsline {section}{\textbf {Oświadczenie studenta o samodzielności pracy}}{17}{section*.3}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.15)  15 DEC 2025 17:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.15)  15 DEC 2025 18:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -651,7 +651,7 @@ Package csquotes Info: Redefining alias 'default' -> 'polish'.
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count351
 \l__pdf_internal_box=\box77
-) (praca.aux (chapters/chapter001.aux) (chapters/chapter002.aux) (chapters/chapter003.aux) (chapters/chapter004.aux) (chapters/chapter005.aux) (chapters/chapter006.aux) (chapters/chapter007.aux))
+) (praca.aux (chapters/chapter001.aux) (chapters/chapter002.aux) (chapters/chapter003.aux) (chapters/chapter004.aux) (chapters/chapter005.aux) (chapters/chapter006.aux) (chapters/chapter007.aux) (chapters/chapter008.aux))
 \openout1 = `praca.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 200.
@@ -766,7 +766,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 202.
  (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figures/ur.jpg, id=63, 134.00063pt x 134.00063pt>
+<figures/ur.jpg, id=71, 134.00063pt x 134.00063pt>
 File: figures/ur.jpg Graphic file (type jpg)
 <use figures/ur.jpg>
 Package pdftex.def Info: figures/ur.jpg  used on input line 202.
@@ -822,84 +822,33 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 3.
 (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 11--18
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--18
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--18
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 11--18
-\T1/ptm/b/n/10 Interakcja z ele-men-tami gra-ficz-nymi: \T1/ptm/m/n/10 Po na-je-cha-niu kur-so-rem na zdj¦-cia b¡d¹ ele-menty pa-ska
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--18
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--18
-
- []
-
-[7
+ [7
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 20--24
-
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 24.
-(C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 31.
+ (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 33--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--39
-
- []
-
-
-Underfull \hbox (badness 2469) in paragraph at lines 33--39
-\T1/ptm/b/n/10 Estetyka i spój-no±¢ wi-zu-alna: \T1/ptm/m/n/10 Strona musi utrzy-my-wa¢ spój-no±¢ ko-lo-ry-styczn¡, wy-ko-rzu-stu-j¡c
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--39
-
- []
-
-) [8]
+)) [8]
 \openout2 = `chapters/chapter003.aux'.
 
  (chapters/chapter003.tex
@@ -914,11 +863,6 @@ Rozdzia\l  3.
 
  (chapters/chapter004.tex
 Rozdzia\l  4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
 ) [10
 
 
@@ -944,38 +888,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-Package epstopdf Info: Source file: <figures/uruchomienie.eps>
-(epstopdf)                    date: 2025-12-15 08:47:06
-(epstopdf)                    size: 1273403 bytes
-(epstopdf)             Output file: <figures/uruchomienie-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-12-15 17:01:05
-(epstopdf)                    size: 8695 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=figures/uruchomienie-eps-converted-to.pdf figures/uruchomienie.eps>
+Package epstopdf Info: Source file: <figures/6.1.eps>
+(epstopdf)                    date: 2025-12-15 17:37:27
+(epstopdf)                    size: 81636 bytes
+(epstopdf)             Output file: <figures/6.1-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-12-15 17:38:06
+(epstopdf)                    size: 5689 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/6.1-eps-converted-to.pdf figures/6.1.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
-<figures/uruchomienie-eps-converted-to.pdf, id=135, 159.59625pt x 185.69376pt>
-File: figures/uruchomienie-eps-converted-to.pdf Graphic file (type pdf)
-<use figures/uruchomienie-eps-converted-to.pdf>
-Package pdftex.def Info: figures/uruchomienie-eps-converted-to.pdf  used on input line 30.
-(pdftex.def)             Requested size: 426.79135pt x 496.58563pt.
-
-Underfull \vbox (badness 2689) has occurred while \output is active []
-
- [12
+<figures/6.1-eps-converted-to.pdf, id=149, 106.3975pt x 17.06375pt>
+File: figures/6.1-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/6.1-eps-converted-to.pdf>
+Package pdftex.def Info: figures/6.1-eps-converted-to.pdf  used on input line 30.
+(pdftex.def)             Requested size: 426.79135pt x 68.46175pt.
+) [12
 
 
 
 
-]) [13 <./figures/uruchomienie-eps-converted-to.pdf>]
+ <./figures/6.1-eps-converted-to.pdf>]
 \openout2 = `chapters/chapter007.aux'.
 
  (chapters/chapter007.tex
 Rozdzia\l  7.
+) [13
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
- []
 
+
+]
+\openout2 = `chapters/chapter008.aux'.
+
+ (chapters/chapter008.tex
+Rozdzia\l  8.
 ) [14
 
 
@@ -992,31 +938,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  [16
 
 ]
-<figures/oswiadczenie.pdf, id=187, 591.16862pt x 839.05469pt>
+<figures/oswiadczenie.pdf, id=203, 591.16862pt x 839.05469pt>
 File: figures/oswiadczenie.pdf Graphic file (type pdf)
 <use figures/oswiadczenie.pdf>
-Package pdftex.def Info: figures/oswiadczenie.pdf  used on input line 273.
+Package pdftex.def Info: figures/oswiadczenie.pdf  used on input line 274.
 (pdftex.def)             Requested size: 591.16718pt x 839.05264pt.
-<figures/oswiadczenie.pdf, id=189, page=1, 591.16862pt x 839.05469pt>
+<figures/oswiadczenie.pdf, id=205, page=1, 591.16862pt x 839.05469pt>
 File: figures/oswiadczenie.pdf Graphic file (type pdf)
 <use figures/oswiadczenie.pdf, page 1>
-Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 273.
+Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 274.
 (pdftex.def)             Requested size: 597.54466pt x 845.09561pt.
 File: figures/oswiadczenie.pdf Graphic file (type pdf)
 <use figures/oswiadczenie.pdf, page 1>
-Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 273.
+Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 274.
 (pdftex.def)             Requested size: 591.19423pt x 839.09105pt.
 File: figures/oswiadczenie.pdf Graphic file (type pdf)
 <use figures/oswiadczenie.pdf, page 1>
-Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 273.
+Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 274.
 (pdftex.def)             Requested size: 591.19423pt x 839.09105pt.
 File: figures/oswiadczenie.pdf Graphic file (type pdf)
 <use figures/oswiadczenie.pdf, page 1>
-Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 273.
+Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 274.
 (pdftex.def)             Requested size: 591.19423pt x 839.09105pt.
 File: figures/oswiadczenie.pdf Graphic file (type pdf)
 <use figures/oswiadczenie.pdf, page 1>
-Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 273.
+Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 274.
 (pdftex.def)             Requested size: 591.19423pt x 839.09105pt.
  [17
 
@@ -1027,26 +973,26 @@ Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 273
 Package caption Warning: Unused \captionsetup[sub] on input line 23.
 See the caption package documentation for explanation.
 
-(praca.aux (chapters/chapter001.aux) (chapters/chapter002.aux) (chapters/chapter003.aux) (chapters/chapter004.aux) (chapters/chapter005.aux) (chapters/chapter006.aux) (chapters/chapter007.aux))
+(praca.aux (chapters/chapter001.aux) (chapters/chapter002.aux) (chapters/chapter003.aux) (chapters/chapter004.aux) (chapters/chapter005.aux) (chapters/chapter006.aux) (chapters/chapter007.aux) (chapters/chapter008.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `praca.out' has not changed.
-(rerunfilecheck)             Checksum: F93C6EB1C1DF3E636AD528EEE86B86D1;2510.
+(rerunfilecheck)             Checksum: 3196CE705A24C76EF64967070414AD6B;3042.
  ) 
 Here is how much of TeX's memory you used:
- 23775 strings out of 474486
- 455111 string characters out of 5745170
- 1934542 words of memory out of 5000000
- 45588 multiletter control sequences out of 15000+600000
+ 23810 strings out of 474486
+ 456186 string characters out of 5745170
+ 1935542 words of memory out of 5000000
+ 45609 multiletter control sequences out of 15000+600000
  618582 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,17n,94p,772b,1237s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,17n,94p,774b,1231s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on praca.pdf (15 pages, 226572 bytes).
+Output written on praca.pdf (15 pages, 227271 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 266 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 

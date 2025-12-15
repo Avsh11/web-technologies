@@ -7,4 +7,12 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Przycisk \texttt {Go Live} rozszerzenia \texttt {Live Server}}}{13}{figure.caption.1}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Wynik walidacji kodu \texttt {HTML5} dla pliku \texttt {index.html}}}{14}{figure.caption.2}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Wynik walidacji kodu \texttt {HTML5} dla pliku \texttt {about.html}}}{15}{figure.caption.3}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Wynik walidacji kodu \texttt {CSS} dla pliku \texttt {style.css}}}{15}{figure.caption.4}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Wynik walidacji kodu \texttt {CSS} dla pliku \texttt {subsite.css}}}{16}{figure.caption.5}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Wynik testu strony głównej - tryb \textbf {Desktop}}}{16}{figure.caption.6}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Wynik testu strony głównej - tryb \textbf {Mobile}}}{17}{figure.caption.7}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Wynik testu podstrony - tryb \textbf {Desktop}}}{17}{figure.caption.8}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Wynik testu podstrony - tryb \textbf {Mobile}}}{18}{figure.caption.9}%
 \addvspace {10\p@ }

@@ -1,8 +1,59 @@
 \chapter{Testowanie poprawności i stopnia optymalizacji kodu}
-
 W celu potwierdzenia iż spełnione zostały wymagania niefunkcjonalne, zostały przeprowadzone testy, które mają na celu udowodnić, że strona wraz z jej podstronami spełniają
 chociażby standardy \textbf{W3C}. Został też przeprowadzony test \texttt{Lighthouse} dostępny w narzędziach deweloperskich w przeglądarkach opartych na silniku \texttt{Chromium} autorstwa korporacji \textbf{Google}. 
-
 \section{Walidacja HTML oraz CSS - W3C}
-
 Zgodnie z przyjętymi standardami kluczowym elementem weryfikacji i jakości kodu jest poddanie go testowi udostępnionemu przez \textbf{World Wide Web Consortium (W3C)}. Walidacja potwierdzać będzie poprawność semantyczną oraz składniową kodu.
+\subsection{HTML}
+Kod źródłowy pliku \texttt{index.html} sprawdzony został za pomocą \textbf{W3C Markup Validation Service}. Jego wynik przedstawiono na rysuku poniżej - {rys. \ref{rys 7.1}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figures/7.1.eps}\\
+    \caption{Wynik walidacji kodu \texttt{HTML5} dla pliku \texttt{index.html}}\label{rys 7.1}
+\end{figure}
+Kod źródłowy pliku \texttt{about.html} sprawdzony został za pomocą \textbf{W3C Markup Validation Service}. Jego wynik przedstawiono na rysuku poniżej - {rys. \ref{rys 7.2}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figures/7.2.eps}\\
+    \caption{Wynik walidacji kodu \texttt{HTML5} dla pliku \texttt{about.html}}\label{rys 7.2}
+\end{figure}
+\subsection{CSS}
+Kod źródłowy pliku \texttt{style.css} sprawdzony został za pomocą \textbf{W3C Markup Validation Service}. Jego wynik przedstawiono na rysuku poniżej - {rys. \ref{rys 7.3}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figures/7.3.eps}\\
+    \caption{Wynik walidacji kodu \texttt{CSS} dla pliku \texttt{style.css}}\label{rys 7.3}
+\end{figure}
+Kod źródłowy pliku \texttt{subsite.css} sprawdzony został za pomocą \textbf{W3C Markup Validation Service}. Jego wynik przedstawiono na rysuku poniżej - {rys. \ref{rys 7.4}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figures/7.4.eps}\\
+    \caption{Wynik walidacji kodu \texttt{CSS} dla pliku \texttt{subsite.css}}\label{rys 7.4}
+\end{figure}
+\section{Audyt wydajności - Lighthouse}
+Po podstawowej walidacji wykonanej dzięki narzędziu \textbf{World Wide Web Consortium (W3C)} dodatkowo wykonano również audyt wydajności w narzędziu deweloperskim \textbf{Lighthouse} autorstwa korporacji \textbf{Google}. Wyniki testów zostaną przedstawione w poniższych podsekcjach.
+\subsection{Strona główna}
+Strona główna testowana w trybie \textbf{Desktop} - {rys. \ref{rys 7.5}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figures/7.5.eps}\\
+    \caption{Wynik testu strony głównej - tryb \textbf{Desktop}}\label{rys 7.5}
+\end{figure}
+Strona główna testowana w trybie \textbf{Mobile} - {rys. \ref{rys 7.6}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figures/7.6.eps}\\
+    \caption{Wynik testu strony głównej - tryb \textbf{Mobile}}\label{rys 7.6}
+\end{figure}
+\subsection{Podstrona}
+Podstrona (\texttt{about.html}) testowana w trybie \textbf{Desktop} - {rys. \ref{rys 7.7}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figures/7.7.eps}\\
+    \caption{Wynik testu podstrony - tryb \textbf{Desktop}}\label{rys 7.7}
+\end{figure}
+Podstrona (\texttt{about.html}) testowana w trybie \textbf{Mobile} - {rys. \ref{rys 7.8}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{figures/7.8.eps}\\
+    \caption{Wynik testu podstrony - tryb \textbf{Mobile}}\label{rys 7.8}
+\end{figure}

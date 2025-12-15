@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.15)  15 DEC 2025 19:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.15)  15 DEC 2025 20:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -785,7 +785,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 203.
  (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figures/ur.jpg, id=95, 134.00063pt x 134.00063pt>
+<figures/ur.jpg, id=115, 134.00063pt x 134.00063pt>
 File: figures/ur.jpg Graphic file (type jpg)
 <use figures/ur.jpg>
 Package pdftex.def Info: figures/ur.jpg  used on input line 203.
@@ -931,7 +931,7 @@ Package epstopdf Info: Source file: <figures/6.1.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/6.1-eps-converted-to.pdf figures/6.1.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
-<figures/6.1-eps-converted-to.pdf, id=183, 106.3975pt x 17.06375pt>
+<figures/6.1-eps-converted-to.pdf, id=208, 106.3975pt x 17.06375pt>
 File: figures/6.1-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/6.1-eps-converted-to.pdf>
 Package pdftex.def Info: figures/6.1-eps-converted-to.pdf  used on input line 30.
@@ -946,22 +946,146 @@ Package pdftex.def Info: figures/6.1-eps-converted-to.pdf  used on input line 30
 
  (chapters/chapter007.tex
 Rozdzia\l  7.
-) [14
+Package epstopdf Info: Source file: <figures/7.1.eps>
+(epstopdf)                    date: 2025-12-15 19:56:09
+(epstopdf)                    size: 8176928 bytes
+(epstopdf)             Output file: <figures/7.1-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-12-15 19:58:26
+(epstopdf)                    size: 89126 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/7.1-eps-converted-to.pdf figures/7.1.eps>
+(epstopdf)             \includegraphics on input line 10.
+Package epstopdf Info: Output file is already uptodate.
+<figures/7.1-eps-converted-to.pdf, id=227, 580.1675pt x 328.22626pt>
+File: figures/7.1-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/7.1-eps-converted-to.pdf>
+Package pdftex.def Info: figures/7.1-eps-converted-to.pdf  used on input line 10.
+(pdftex.def)             Requested size: 426.79135pt x 241.45625pt.
+Package epstopdf Info: Source file: <figures/7.2.eps>
+(epstopdf)                    date: 2025-12-15 19:56:09
+(epstopdf)                    size: 8086700 bytes
+(epstopdf)             Output file: <figures/7.2-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-12-15 19:58:29
+(epstopdf)                    size: 89336 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/7.2-eps-converted-to.pdf figures/7.2.eps>
+(epstopdf)             \includegraphics on input line 16.
+Package epstopdf Info: Output file is already uptodate.
+<figures/7.2-eps-converted-to.pdf, id=229, 577.15625pt x 327.2225pt>
+File: figures/7.2-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/7.2-eps-converted-to.pdf>
+Package pdftex.def Info: figures/7.2-eps-converted-to.pdf  used on input line 16.
+(pdftex.def)             Requested size: 426.79135pt x 241.98108pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14
 
 
 
 
-]
+ <./figures/7.1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/7.3.eps>
+(epstopdf)                    date: 2025-12-15 19:56:09
+(epstopdf)                    size: 25244725 bytes
+(epstopdf)             Output file: <figures/7.3-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-12-15 19:58:36
+(epstopdf)                    size: 258380 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/7.3-eps-converted-to.pdf figures/7.3.eps>
+(epstopdf)             \includegraphics on input line 23.
+Package epstopdf Info: Output file is already uptodate.
+<figures/7.3-eps-converted-to.pdf, id=240, 1029.8475pt x 571.13374pt>
+File: figures/7.3-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/7.3-eps-converted-to.pdf>
+Package pdftex.def Info: figures/7.3-eps-converted-to.pdf  used on input line 23.
+(pdftex.def)             Requested size: 426.79135pt x 236.68492pt.
+Package epstopdf Info: Source file: <figures/7.4.eps>
+(epstopdf)                    date: 2025-12-15 19:56:09
+(epstopdf)                    size: 24697466 bytes
+(epstopdf)             Output file: <figures/7.4-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-12-15 19:58:43
+(epstopdf)                    size: 243277 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/7.4-eps-converted-to.pdf figures/7.4.eps>
+(epstopdf)             \includegraphics on input line 29.
+Package epstopdf Info: Output file is already uptodate.
+<figures/7.4-eps-converted-to.pdf, id=242, 1030.85126pt x 559.08875pt>
+File: figures/7.4-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/7.4-eps-converted-to.pdf>
+Package pdftex.def Info: figures/7.4-eps-converted-to.pdf  used on input line 29.
+(pdftex.def)             Requested size: 426.79135pt x 231.47151pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <./figures/7.2-eps-converted-to.pdf> <./figures/7.3-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/7.5.eps>
+(epstopdf)                    date: 2025-12-15 20:06:35
+(epstopdf)                    size: 26799498 bytes
+(epstopdf)             Output file: <figures/7.5-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-12-15 20:16:40
+(epstopdf)                    size: 501838 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/7.5-eps-converted-to.pdf figures/7.5.eps>
+(epstopdf)             \includegraphics on input line 38.
+Package epstopdf Info: Output file is already uptodate.
+<figures/7.5-eps-converted-to.pdf, id=257, 1083.04625pt x 577.15625pt>
+File: figures/7.5-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/7.5-eps-converted-to.pdf>
+Package pdftex.def Info: figures/7.5-eps-converted-to.pdf  used on input line 38.
+(pdftex.def)             Requested size: 426.79135pt x 227.4326pt.
+Package epstopdf Info: Source file: <figures/7.6.eps>
+(epstopdf)                    date: 2025-12-15 20:06:35
+(epstopdf)                    size: 26783110 bytes
+(epstopdf)             Output file: <figures/7.6-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-12-15 20:16:49
+(epstopdf)                    size: 505852 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/7.6-eps-converted-to.pdf figures/7.6.eps>
+(epstopdf)             \includegraphics on input line 44.
+Package epstopdf Info: Output file is already uptodate.
+<figures/7.6-eps-converted-to.pdf, id=259, 1084.05pt x 576.1525pt>
+File: figures/7.6-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/7.6-eps-converted-to.pdf>
+Package pdftex.def Info: figures/7.6-eps-converted-to.pdf  used on input line 44.
+(pdftex.def)             Requested size: 426.79135pt x 226.83487pt.
+ [16 <./figures/7.4-eps-converted-to.pdf> <./figures/7.5-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/7.7.eps>
+(epstopdf)                    date: 2025-12-15 20:06:35
+(epstopdf)                    size: 26678099 bytes
+(epstopdf)             Output file: <figures/7.7-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-12-15 20:16:58
+(epstopdf)                    size: 946451 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/7.7-eps-converted-to.pdf figures/7.7.eps>
+(epstopdf)             \includegraphics on input line 51.
+Package epstopdf Info: Output file is already uptodate.
+<figures/7.7-eps-converted-to.pdf, id=273, 1084.05pt x 574.145pt>
+File: figures/7.7-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/7.7-eps-converted-to.pdf>
+Package pdftex.def Info: figures/7.7-eps-converted-to.pdf  used on input line 51.
+(pdftex.def)             Requested size: 426.79135pt x 226.04451pt.
+Package epstopdf Info: Source file: <figures/7.8.eps>
+(epstopdf)                    date: 2025-12-15 20:06:35
+(epstopdf)                    size: 26678099 bytes
+(epstopdf)             Output file: <figures/7.8-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-12-15 20:17:06
+(epstopdf)                    size: 947029 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/7.8-eps-converted-to.pdf figures/7.8.eps>
+(epstopdf)             \includegraphics on input line 57.
+Package epstopdf Info: Output file is already uptodate.
+<figures/7.8-eps-converted-to.pdf, id=275, 1084.05pt x 574.145pt>
+File: figures/7.8-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/7.8-eps-converted-to.pdf>
+Package pdftex.def Info: figures/7.8-eps-converted-to.pdf  used on input line 57.
+(pdftex.def)             Requested size: 426.79135pt x 226.04451pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <./figures/7.6-eps-converted-to.pdf> <./figures/7.7-eps-converted-to.pdf>] [18 <./figures/7.8-eps-converted-to.pdf>]
 \openout2 = `chapters/chapter008.aux'.
 
  (chapters/chapter008.tex
 Rozdzia\l  8.
-) [15
+) [19
 
 
 
 
-] (praca.bbl) [16
+] (praca.bbl) [20
 
 
 
@@ -969,15 +1093,15 @@ Rozdzia\l  8.
 \tf@lof=\write5
 \openout5 = `praca.lof'.
 
- [17
+ [21
 
 ]
-<figures/oswiadczenie.pdf, id=237, 591.16862pt x 839.05469pt>
+<figures/oswiadczenie.pdf, id=335, 591.16862pt x 839.05469pt>
 File: figures/oswiadczenie.pdf Graphic file (type pdf)
 <use figures/oswiadczenie.pdf>
 Package pdftex.def Info: figures/oswiadczenie.pdf  used on input line 275.
 (pdftex.def)             Requested size: 591.16718pt x 839.05264pt.
-<figures/oswiadczenie.pdf, id=239, page=1, 591.16862pt x 839.05469pt>
+<figures/oswiadczenie.pdf, id=337, page=1, 591.16862pt x 839.05469pt>
 File: figures/oswiadczenie.pdf Graphic file (type pdf)
 <use figures/oswiadczenie.pdf, page 1>
 Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 275.
@@ -998,7 +1122,7 @@ File: figures/oswiadczenie.pdf Graphic file (type pdf)
 <use figures/oswiadczenie.pdf, page 1>
 Package pdftex.def Info: figures/oswiadczenie.pdf , page1 used on input line 275.
 (pdftex.def)             Requested size: 591.19423pt x 839.09105pt.
- [18
+ [22
 
 
 
@@ -1013,20 +1137,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `praca.out' has not changed.
-(rerunfilecheck)             Checksum: 89C171E59A25C302CA2F48265DE6C2E3;4324.
+(rerunfilecheck)             Checksum: 936E7EA48A6ED06CD44D6E24D0F44BA9;4940.
  ) 
 Here is how much of TeX's memory you used:
- 23926 strings out of 474486
- 458042 string characters out of 5745170
+ 24017 strings out of 474486
+ 460466 string characters out of 5745170
  1938542 words of memory out of 5000000
- 45711 multiletter control sequences out of 15000+600000
- 618582 words of font info for 89 fonts, out of 8000000 for 9000
+ 45784 multiletter control sequences out of 15000+600000
+ 621385 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,17n,94p,774b,1231s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on praca.pdf (16 pages, 244663 bytes).
+Output written on praca.pdf (20 pages, 3826083 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
- 210 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 403 PDF objects out of 1000 (max. 8388607)
+ 87 named destinations out of 1000 (max. 500000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 

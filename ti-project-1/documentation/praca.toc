@@ -18,7 +18,12 @@
 \contentsline {chapter}{\numberline {6}Instrukcja uruchomieniowa}{13}{chapter.6}%
 \contentsline {chapter}{\numberline {7}Testowanie poprawności i stopnia optymalizacji kodu}{14}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Walidacja HTML oraz CSS - W3C}{14}{section.7.1}%
-\contentsline {chapter}{\numberline {8}Podsumowanie}{15}{chapter.8}%
-\contentsline {section}{\textbf {Bibliografia}}{16}{Item.23}%
-\contentsline {section}{\textbf {Spis rysunków}}{17}{chapter*.2}%
-\contentsline {section}{\textbf {Oświadczenie studenta o samodzielności pracy}}{18}{section*.3}%
+\contentsline {subsection}{\numberline {7.1.1}HTML}{14}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}CSS}{15}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}Audyt wydajności - Lighthouse}{16}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Strona główna}{16}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Podstrona}{17}{subsection.7.2.2}%
+\contentsline {chapter}{\numberline {8}Podsumowanie}{19}{chapter.8}%
+\contentsline {section}{\textbf {Bibliografia}}{20}{Item.23}%
+\contentsline {section}{\textbf {Spis rysunków}}{21}{chapter*.10}%
+\contentsline {section}{\textbf {Oświadczenie studenta o samodzielności pracy}}{22}{section*.11}%

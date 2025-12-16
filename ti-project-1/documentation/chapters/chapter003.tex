@@ -3,12 +3,12 @@
 \section{Użyte technologie}
 Zgodnie z przyjętymi wymaganiami, strona internetowa \textbf{Virexon} wykonana została tylko i wyłącznie za pomocą języka znaczników \texttt{HTML5} oraz kaskadowych arkuszy stylów \texttt{CSS3} bez żadnych zewnętrznych bibliotek oraz frameworków.
 
- \texttt{HTML5} wykorzystano do stworzenia podstawowego szkieletu witryny uwzględniajac w niego znaczniki takie jak chociażby \texttt{<header>}, \texttt{<nav>}, \texttt{<section>} oraz \texttt{<footer>} co pozytywnie wpływa na pozycjonowanie (SEO) oraz sam układ strony.
+ \texttt{HTML5} wykorzystano do stworzenia podstawowego szkieletu witryny uwzględniając w nim znaczniki takie jak chociażby \texttt{<header>}, \texttt{<nav>}, \texttt{<section>} oraz \texttt{<footer>} co pozytywnie wpływa na pozycjonowanie (SEO) oraz sam układ strony.
 
  \texttt{CSS} wykorzystano do stworzenia warstwy wizualnej opartej na nowoczesnych standardach, w tym Flexbox do układów oraz zmienne do prostego zarządzania kolorami. Użyte zostały również animacje klatkowe (\texttt{@keyframes}).
 
 \section{Struktura katalogów}
- Sturktura katalogów została zaprojektowana z myślą o łatwym zarządzaniem zasobami i ewentualnym rozbudowaniem projektu. Cała struktura przedstawiona została w formie drzewka poniżej:
+ Struktura katalogów została zaprojektowana z myślą o łatwym zarządzaniu zasobami i ewentualnym rozbudowaniu projektu. Cała struktura przedstawiona została w formie drzewka poniżej:
 \vspace{0.5cm} 
 \dirtree{%
 .1 ti-project-1/.
@@ -28,7 +28,7 @@ Zgodnie z przyjętymi wymaganiami, strona internetowa \textbf{Virexon} wykonana 
 \vspace{0.5cm}
 \section{Konwencje kodowania i organizacja stylów}
 
-Aby zapewnić czytelność i łatwość konwersacji kodu, w arkuszach stylów zastosowano następujące konwencje:
+Aby zapewnić czytelność i łatwość konserwacji kodu, w arkuszach stylów zastosowano następujące konwencje:
 \begin{itemize}
     \item \textbf{Zmienne CSS (:root)}: Kolory oraz fonty zostały zdefiniowane w pseudoklasie \texttt{:root}. Umożliwia to szybką zmianę motywu kolorystycznego w jednym miejscu, bez konieczności edycji całego pliku (np. \texttt{--text-color-accent: \#C1121F}).
     \item \textbf{Skalowalne jednostki REM}: W projekcie zastosowano technikę ustawienia bazowej wielkości czcionki dla elementu \texttt{html} na \texttt{50\%}. Dzięki temu 1rem odpowiada 8px (domyślnie przeglądarka ma 16px, 50\% z 16px to 8px).
@@ -54,7 +54,7 @@ Dla podstron zaimplementowano efekt przyciągania przewijania, który dzieli tre
 
 \section{Responsywność (RWD)}
 
-Strona jest w pełni responsywna i dostosowuje siędo urządzeń mobilnych oraz tabletów. Wykorzystano podejście prioretyzujące urządzenia desktopowe z punktami przerwania dla szerokości:
+Strona jest w pełni responsywna i dostosowuje się do urządzeń mobilnych oraz tabletów. Wykorzystano podejście priorytetyzujące urządzenia desktopowe z punktami przerwania dla szerokości:
 \begin{itemize}
     \item \textbf{1440px}
     \item \textbf{1200px}
@@ -64,7 +64,7 @@ Strona jest w pełni responsywna i dostosowuje siędo urządzeń mobilnych oraz 
 
 Dodatkowe zmiany w układzie mobilnym:
 \begin{itemize}
-    \item \textbf{Zmiana układu Flexbox:} Wiersze (\texttt{.feature-row}, \texttt{.child-cointainer}) zmieniają kierunek z poziomego na pionowy (\texttt{flex-direction: column}), a elementy układne są jeden pod drugim.
+    \item \textbf{Zmiana układu Flexbox:} Wiersze (\texttt{.feature-row}, \texttt{.child-container}) zmieniają kierunek z poziomego na pionowy (\texttt{flex-direction: column}), a elementy układane są jeden pod drugim.
     \item \textbf{Dezaktywacja Scroll Snap}: Na urządzeniach dotykowych o mniejszej rozdzielczości (poniżej 1024px) mechanizm \texttt{scroll-snap} jest wyłączany (\texttt{scroll-snap-type: none}), a wysokość sekcji zmienia się z \texttt{100vh} na \texttt{auto}. Zapobiega to blokowaniu się przewijania na telefonach i poprawia UI/UX.
     \item \textbf{Dostosowanie typografii}: Wielkości czcionek (np. nagłówków Hero) są redukowane, aby mieściły się na węższych ekranach bez przełamywania słów.
     \item \textbf{Nawigacja}: Pasek nawigacji na telefonach zmienia układ na kolumnowy lub "wrap", aby pomieścić wszystkie linki w obszarze dotykowym.

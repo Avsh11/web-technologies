@@ -12,8 +12,7 @@
 \contentsline {section}{\numberline {3.6}Responsywność (RWD)}{11}{section.3.6}%
 \contentsline {chapter}{\numberline {4}Harmonogram realizacji projektu}{12}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Etapy realizacji projektu}{12}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Wykres Gantta}{12}{section.4.2}%
-\contentsline {section}{\numberline {4.3}System kontroli wersji}{12}{section.4.3}%
+\contentsline {section}{\numberline {4.2}System kontroli wersji}{12}{section.4.2}%
 \contentsline {chapter}{\numberline {5}Prezentacja warstwy użytkowej projektu}{13}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Identyfikacja wizualna i stylistyka strony}{13}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Kolorystyka}{13}{section.5.2}%

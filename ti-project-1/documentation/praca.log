@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.15)  16 DEC 2025 16:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.15)  16 DEC 2025 16:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -785,7 +785,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 203.
  (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figures/ur.jpg, id=159, 134.00063pt x 134.00063pt>
+<figures/ur.jpg, id=155, 134.00063pt x 134.00063pt>
 File: figures/ur.jpg Graphic file (type jpg)
 <use figures/ur.jpg>
 Package pdftex.def Info: figures/ur.jpg  used on input line 203.
@@ -808,7 +808,7 @@ l.203 \titlepages
 
 
 ] (praca.toc
-Underfull \vbox (badness 1158) has occurred while \output is active []
+Underfull \vbox (badness 1286) has occurred while \output is active []
 
  [5
 
@@ -925,7 +925,7 @@ Package epstopdf Info: Source file: <figures/5.1.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/5.1-eps-converted-to.pdf figures/5.1.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
-<figures/5.1-eps-converted-to.pdf, id=267, 1071.00125pt x 574.145pt>
+<figures/5.1-eps-converted-to.pdf, id=262, 1071.00125pt x 574.145pt>
 File: figures/5.1-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/5.1-eps-converted-to.pdf>
 Package pdftex.def Info: figures/5.1-eps-converted-to.pdf  used on input line 38.
@@ -939,7 +939,7 @@ Package epstopdf Info: Source file: <figures/5.2.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/5.2-eps-converted-to.pdf figures/5.2.eps>
 (epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
-<figures/5.2-eps-converted-to.pdf, id=269, 1071.00125pt x 44.165pt>
+<figures/5.2-eps-converted-to.pdf, id=264, 1071.00125pt x 44.165pt>
 File: figures/5.2-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/5.2-eps-converted-to.pdf>
 Package pdftex.def Info: figures/5.2-eps-converted-to.pdf  used on input line 45.
@@ -953,7 +953,7 @@ Package epstopdf Info: Source file: <figures/5.3.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/5.3-eps-converted-to.pdf figures/5.3.eps>
 (epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
-<figures/5.3-eps-converted-to.pdf, id=271, 1069.9975pt x 528.97626pt>
+<figures/5.3-eps-converted-to.pdf, id=266, 1069.9975pt x 528.97626pt>
 File: figures/5.3-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/5.3-eps-converted-to.pdf>
 Package pdftex.def Info: figures/5.3-eps-converted-to.pdf  used on input line 52.
@@ -971,7 +971,7 @@ Package epstopdf Info: Source file: <figures/5.4.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/5.4-eps-converted-to.pdf figures/5.4.eps>
 (epstopdf)             \includegraphics on input line 59.
 Package epstopdf Info: Output file is already uptodate.
-<figures/5.4-eps-converted-to.pdf, id=282, 1069.9975pt x 489.83pt>
+<figures/5.4-eps-converted-to.pdf, id=277, 1069.9975pt x 489.83pt>
 File: figures/5.4-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/5.4-eps-converted-to.pdf>
 Package pdftex.def Info: figures/5.4-eps-converted-to.pdf  used on input line 59.
@@ -986,7 +986,7 @@ Package epstopdf Info: Source file: <figures/5.5.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/5.5-eps-converted-to.pdf figures/5.5.eps>
 (epstopdf)             \includegraphics on input line 68.
 Package epstopdf Info: Output file is already uptodate.
-<figures/5.5-eps-converted-to.pdf, id=302, 1084.05pt x 573.14125pt>
+<figures/5.5-eps-converted-to.pdf, id=297, 1084.05pt x 573.14125pt>
 File: figures/5.5-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/5.5-eps-converted-to.pdf>
 Package pdftex.def Info: figures/5.5-eps-converted-to.pdf  used on input line 68.
@@ -1000,7 +1000,7 @@ Package epstopdf Info: Source file: <figures/5.6.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/5.6-eps-converted-to.pdf figures/5.6.eps>
 (epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
-<figures/5.6-eps-converted-to.pdf, id=303, 1084.05pt x 573.14125pt>
+<figures/5.6-eps-converted-to.pdf, id=298, 1084.05pt x 573.14125pt>
 File: figures/5.6-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/5.6-eps-converted-to.pdf>
 Package pdftex.def Info: figures/5.6-eps-converted-to.pdf  used on input line 75.
@@ -1014,7 +1014,7 @@ Package epstopdf Info: Source file: <figures/5.7.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/5.7-eps-converted-to.pdf figures/5.7.eps>
 (epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
-<figures/5.7-eps-converted-to.pdf, id=305, 1084.05pt x 573.14125pt>
+<figures/5.7-eps-converted-to.pdf, id=300, 1084.05pt x 573.14125pt>
 File: figures/5.7-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/5.7-eps-converted-to.pdf>
 Package pdftex.def Info: figures/5.7-eps-converted-to.pdf  used on input line 83.
@@ -1038,7 +1038,7 @@ Package epstopdf Info: Source file: <figures/6.1.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/6.1-eps-converted-to.pdf figures/6.1.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
-<figures/6.1-eps-converted-to.pdf, id=328, 106.3975pt x 17.06375pt>
+<figures/6.1-eps-converted-to.pdf, id=323, 106.3975pt x 17.06375pt>
 File: figures/6.1-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/6.1-eps-converted-to.pdf>
 Package pdftex.def Info: figures/6.1-eps-converted-to.pdf  used on input line 31.
@@ -1062,7 +1062,7 @@ Package epstopdf Info: Source file: <figures/7.1.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/7.1-eps-converted-to.pdf figures/7.1.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
-<figures/7.1-eps-converted-to.pdf, id=347, 580.1675pt x 328.22626pt>
+<figures/7.1-eps-converted-to.pdf, id=342, 580.1675pt x 328.22626pt>
 File: figures/7.1-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/7.1-eps-converted-to.pdf>
 Package pdftex.def Info: figures/7.1-eps-converted-to.pdf  used on input line 10.
@@ -1076,7 +1076,7 @@ Package epstopdf Info: Source file: <figures/7.2.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/7.2-eps-converted-to.pdf figures/7.2.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
-<figures/7.2-eps-converted-to.pdf, id=349, 577.15625pt x 327.2225pt>
+<figures/7.2-eps-converted-to.pdf, id=344, 577.15625pt x 327.2225pt>
 File: figures/7.2-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/7.2-eps-converted-to.pdf>
 Package pdftex.def Info: figures/7.2-eps-converted-to.pdf  used on input line 16.
@@ -1099,7 +1099,7 @@ Package epstopdf Info: Source file: <figures/7.3.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/7.3-eps-converted-to.pdf figures/7.3.eps>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
-<figures/7.3-eps-converted-to.pdf, id=360, 1029.8475pt x 571.13374pt>
+<figures/7.3-eps-converted-to.pdf, id=355, 1029.8475pt x 571.13374pt>
 File: figures/7.3-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/7.3-eps-converted-to.pdf>
 Package pdftex.def Info: figures/7.3-eps-converted-to.pdf  used on input line 23.
@@ -1113,7 +1113,7 @@ Package epstopdf Info: Source file: <figures/7.4.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/7.4-eps-converted-to.pdf figures/7.4.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<figures/7.4-eps-converted-to.pdf, id=362, 1030.85126pt x 559.08875pt>
+<figures/7.4-eps-converted-to.pdf, id=357, 1030.85126pt x 559.08875pt>
 File: figures/7.4-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/7.4-eps-converted-to.pdf>
 Package pdftex.def Info: figures/7.4-eps-converted-to.pdf  used on input line 29.
@@ -1131,7 +1131,7 @@ Package epstopdf Info: Source file: <figures/7.5.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/7.5-eps-converted-to.pdf figures/7.5.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
-<figures/7.5-eps-converted-to.pdf, id=376, 1083.04625pt x 577.15625pt>
+<figures/7.5-eps-converted-to.pdf, id=371, 1083.04625pt x 577.15625pt>
 File: figures/7.5-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/7.5-eps-converted-to.pdf>
 Package pdftex.def Info: figures/7.5-eps-converted-to.pdf  used on input line 38.
@@ -1145,7 +1145,7 @@ Package epstopdf Info: Source file: <figures/7.6.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/7.6-eps-converted-to.pdf figures/7.6.eps>
 (epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
-<figures/7.6-eps-converted-to.pdf, id=378, 1084.05pt x 576.1525pt>
+<figures/7.6-eps-converted-to.pdf, id=373, 1084.05pt x 576.1525pt>
 File: figures/7.6-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/7.6-eps-converted-to.pdf>
 Package pdftex.def Info: figures/7.6-eps-converted-to.pdf  used on input line 44.
@@ -1160,7 +1160,7 @@ Package epstopdf Info: Source file: <figures/7.7.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/7.7-eps-converted-to.pdf figures/7.7.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
-<figures/7.7-eps-converted-to.pdf, id=393, 1084.05pt x 574.145pt>
+<figures/7.7-eps-converted-to.pdf, id=388, 1084.05pt x 574.145pt>
 File: figures/7.7-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/7.7-eps-converted-to.pdf>
 Package pdftex.def Info: figures/7.7-eps-converted-to.pdf  used on input line 51.
@@ -1174,7 +1174,7 @@ Package epstopdf Info: Source file: <figures/7.8.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/7.8-eps-converted-to.pdf figures/7.8.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
-<figures/7.8-eps-converted-to.pdf, id=395, 1084.05pt x 574.145pt>
+<figures/7.8-eps-converted-to.pdf, id=390, 1084.05pt x 574.145pt>
 File: figures/7.8-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/7.8-eps-converted-to.pdf>
 Package pdftex.def Info: figures/7.8-eps-converted-to.pdf  used on input line 57.
@@ -1213,20 +1213,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `praca.out' has not changed.
-(rerunfilecheck)             Checksum: E036560BD648C6A29F8D453FB94D559D;6568.
+(rerunfilecheck)             Checksum: AC8C3866BED03126C2840740F59651B9;6445.
  ) 
 Here is how much of TeX's memory you used:
- 24104 strings out of 474486
- 462420 string characters out of 5745170
+ 24102 strings out of 474486
+ 462396 string characters out of 5745170
  1940542 words of memory out of 5000000
- 45849 multiletter control sequences out of 15000+600000
+ 45848 multiletter control sequences out of 15000+600000
  621385 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,12n,94p,819b,1257s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on praca.pdf (24 pages, 6441843 bytes).
+Output written on praca.pdf (24 pages, 6440981 bytes).
 PDF statistics:
- 526 PDF objects out of 1000 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
- 398 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 519 PDF objects out of 1000 (max. 8388607)
+ 108 named destinations out of 1000 (max. 500000)
+ 390 words of extra memory for PDF output out of 10000 (max. 10000000)
 

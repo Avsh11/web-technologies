@@ -1,29 +1,30 @@
 \chapter{Opis założeń projektu}
 
-Celem projektu jest stworzenie responsywnej strony internetowej przy użyciu technologii \texttt{HTML} i \texttt{CSS} dla fikcyjnej korporacji/firmy badawczej zajmującej się nauką, wojskowością oraz technologią w prywatnym sektorze. Strona ma za zadanie zbudować wizerunek nowoczesnej, innowacyjnej marki oraz zawierać podstawowe informacje takie jak, chociażby misja, badania i zespół firmy.
+Celem projektu było stworzenie wielofunkcyjnej strony internetowej o nazwie \textbf{Vexillarius}, będącej praktycznym sprawdzianem podstawowych umiejętności głównie z zakresu technologii \textbf{JavaScript}. Strona została zaprojektowana w sposób spójny wizualnie z myślą o zaimplementowanych skryptach.
 
-Podstawowym problemem, który zostanie rozwiązany przez realizację tego projektu, jest brak cyfrowej tożsamości dla nowo powstałej firmy. Źródłem tego problemu jest współczesna specyfika rynku w dobie powszechnej cyfryzacji, gdzie brak wizytówki w sieci w postaci strony internetowej jest równoznaczny z brakiem wiarygodności w oczach potencjalnych klientów.
-Aby problem został skutecznie rozwiązany, potencjalny zespół musi posiadać wiedzę z zakresu technologii webowych w szczególności kaskadowych arkuszy stylów \texttt{CSS3}, języka struktury \texttt{HTML5} oraz podstawowego zmysłu estetycznego w projektowaniu interfejsów UI/UX.
+Głównym założeniem projektu było przejście ze statycznego dokumentu HTML/CSS do interaktywnej witryny poprzez użycie skryptów. W ramach prac zaimplementowano ich kilka, gdzie część z nich to narzędzia takie jak kalkulator oraz lista zadań, które pozwalają na interakcję z użytkownikiem.
 
-Rozwiązanie problemu przebiegnie w kilku zdefiniowanych krokach. W pierwszej kolejności nastąpi zaprojektowanie schematu każdej ze stron, czyt. układ treści i nawigacji. Kolejnym krokiem będzie postawienie szkieletu strony przy pomocy technologii \texttt{HTML5} zaś krokiem kolejnym będzie stopniowe wdrażanie stylów przy użyciu technologii kaskadowych arkuszy stylów. Końcowym i zarazem najważniejszym krokiem będzie optymalizacja responsywności strony na urządzenia mobilne, takie jak smartfon bądź tablet poprzez Media Queries.
+Rozwiązanie problemu projektowego przebiegło w następujących krokach:
+\begin{enumerate}
+      \item Przygotowanie struktury dokumentu \texttt{HTML5}.
+      \item Stworzenie stylów \texttt{CSS3} wraz z tymi odpowiedzialnymi za podstawową responsywność witryny - \texttt{Media Queries}.
+      \item Implementacja skryptów w języku \texttt{JavaScript} odpowiedzialnych za warstwę użytkową strony.
+\end{enumerate}
 
 \section{Wymagania funkcjonalne}
-Poniższe wymagania opisują, jakie operacje i interakcje umożliwia strona internetowa użytkownikowi końcowemu:
+Projekt realizuje następujące funkcjonalności, które pozwalają użytkownikowi na interakcję z witryną:
 
-\textbf{Nawigacja po sekcjach:} Strona musi umożliwiać użytkownikowi płynne przechodzenie po konkretnych sekcjach strony (Home, Our Story, Services, Jobs, Contact) poprzez kliknięcie w odpowiedni załącznik prowadzący do wspomnianych sekcji.
+\textbf{Przełącznik trybu light/dark mode:} Możliwość zmiany motywu strony (jasny/ciemny) za pomocą jednego przycisku zlokalizowanego w prawym górnym rogu paska nawigacyjnego.
 
-\textbf{Prezentacja treści:} Strona musi wyświetlać sformatowane teksty oraz grafiki w sposób czytelny dla odbiorcy.
+\textbf{Interaktywna lista zadań (To-Do):} Lista pozwala użytkownikowi na wpisywanie i dodawanie zadań, jak i ich usuwanie za pomocą kliknięcia. Lista zadań wyświetlana jest za pomocą dynamicznej listy na ekranie.
 
-\textbf{Interakcja z elementami graficznymi:} Po najechaniu kursorem na zdjęcia bądź elementy paska nawigacji, strona ma odpowiednio reagować poprzez efekty takie jak powiększanie obrazków, podkreślanie elementów i zmiany kolorów.
+\textbf{Kalkulator liczb - arabskie/rzymskie:} Kalkulator przeliczający wpisane liczby arabskie na ich rzymski odpowiednik, prezentujący wynik w czasie rzeczywistym.
 
-\textbf{Animacja powitalna:} Podczas ładowania strony głównej, strona automatycznie ma odtworzyć prostą animację powitalną, aby przykuć uwagę użytkownika.
+\textbf{Obsługa formularza kontaktowego:} Sekcja z walidacją pól (imię, email, treść wiadomości). Skrypt sprawdza poprawność danych i informuje użytkownika o błędach lub powodzeniu wysłania wiadomości za pomocą autorskich komunikatów - \textit{custom alerts}.
 
-\textbf{Wizualizacja formularza kontaktowego:} Strona musi udostępniać w dolnej części strony głównej formularz kontaktowy z podstawowymi polami na dane z odpowiednio stylowanym interfejsem użytkownika.
-
-\textbf{Responsywność menu:} Na urządzeniach mobilnych strona musi zmieniać układ paska nawigacyjnego na pionowy lub dostosowany do ekranów dotykowych, aby zapewnić podstawową czytelność załączników.\newline\newline
+\textbf{Dynamiczny pasek nawigacji:} Nagłówek strony podczas scrollowania w dół zmienia swój wygląd poprzez pojawienie się dolnego obramowania oddzielającego go od reszty strony.
 
 \section{Wymagania niefunkcjonalne}
-Poniższe wymagania określają ograniczenia techniczne, standardy oraz cechy, jakimi musi charakteryzować się rozwiązanie:\newline
 
 \textbf{Środowisko testowe}\newline
 Testy projektu odbywały się lokalnie na komputerze o przedstawionej poniżej specyfikacji.
@@ -38,15 +39,12 @@ Testy projektu odbywały się lokalnie na komputerze o przedstawionej poniżej s
       \item \textbf{IDE:} Visual Studio Code
 \end{itemize}
 
-\textbf{Technologie:} Strona zgodnie z przyjętymi wytycznymi wykonana ma być przy użyciu czystego \texttt{HTML5} oraz \texttt{CSS} bez zewenętrznych bibliotek, frameworków (np. Bootstrap, React itd.) oraz języka \texttt{JavaScript}.
+\textbf{Technologie:} Strona zgodnie z przyjętymi wytycznymi skupiać powinna się na wykorzystaniu skryptów w języku \textbf{JavaScript}. Dozwolone jest natomiast wykorzystanie ich w formie strony internetowej, gdzie wykorzystane będą również inne technologie.
 
-\textbf{Ogólna responsywność:} Strona musi poprawnie skalować się i być czytelna na urządzeniach zarówno mobilnych aż po monitory desktopowe.
-
-\textbf{Estetyka i spójność wizualna:} Strona musi utrzymywać spójność kolorystyczną, wykorzystując spójną typografię w zależności od sekcji.
-
-\textbf{Wydajność:} Strona powinna charakteryzować się krótkim czasem ładowania poprzez brak ciężkich bibliotek i zewnętrznych skryptów.
+\textbf{Wydajność:} Strona powinna charakteryzować się krótkim czasem ładowania poprzez brak ciężkich bibliotek.
 
 \textbf{Kompatybilność:} Witryna powinna wyświetlać się poprawnie zarówno na przeglądarkach wyposażonych w silnik \texttt{Chromium} jak i \texttt{Gecko}.
 
-\textbf{Czytelność kodu:} Kod źródłowy (HTML i CSS) musi być uporządkowany, posiadać wcięcia oraz komentarze ułatwiające późniejszą ocenę, jak i edycje.
+\textbf{Responsywność (RWD):} Strona poprawnie wyświetla się na różnych szerokościach ekranu - od monitorów aż po urządzenia mobilne. Układ elementów dostosowuje się tak, aby zachować czytelność i wygodę klikania.
 
+\textbf{Spójność wizualna:} Wykorzystanie zmiennych globalnych w kaskadowych arkuszach stylów w celu zarządzania kolorystyką oraz typografią nadaje stronie estetycznego, jednolitego wyglądu.

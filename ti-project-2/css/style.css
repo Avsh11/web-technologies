@@ -30,7 +30,7 @@ body {
 body.dark-mode {
 --bg-color: #0B090A;
 --nav-color: #0B090A;
---footer-color: #161A1D;
+--footer-color: #141414;
 --text-main-color: #F8F9FA;
 }
 li, a, button {
@@ -40,7 +40,8 @@ li, a, button {
     color: var(--text-main-color);
     text-decoration: none;
 }
-/* Pasek nawigacji */
+
+/* ========== pasek nawigacji ========== */
 header {
     position: sticky;
     top: 0;
@@ -50,6 +51,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    /* border-bottom jak na stronie notion: */
+    transition: border-bottom 0.3s ease, box-shadow 0.3s ease;
+    border-bottom: 1px solid transparent;
+}
+header.scrolled {
+    border-bottom: 1px solid var(--footer-color);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
 }
 .logo {
     cursor: pointer;
@@ -100,7 +108,7 @@ body.dark-mode .dark-mode-icon {
     color: #F8F9FA;
 }
 
-/* Sekcja hero czyli naglowek co bedzie miec animacje */
+/* ========== Sekcja hero czyli naglowek co bedzie miec animacje ========== */
 .hero-section {
     min-height: 80vh;
     display: flex;
@@ -116,10 +124,13 @@ body.dark-mode .dark-mode-icon {
 }
 .hero-content h1 {
     font-family: var(--decoration-font);
-    font-size: clamp(4rem, 12vw, 10rem); 
+    font-size: clamp(3.5rem, 10vw, 10rem);
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+    line-height: 1.1;
     font-weight: 900;
     letter-spacing: 0.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: var(--text-main-color);
     width: 100%;
     text-align: center;
@@ -163,7 +174,7 @@ body.dark-mode .button-main:hover {
     box-shadow: 0 0 24px rgba(248, 249, 250, 0.4);
 }
 
-/* Sekcja todo  */
+/* ========== Sekcja todo ========== */
 .todo-section {
     min-height: 80vh;
     display: flex;
@@ -219,7 +230,7 @@ body.dark-mode .button-main:hover {
     font-size: 1.8rem;
 }
 
-/* Sekcja kalkulatora */
+/* ========== Sekcja kalkulatora ========== */
 .calc-section {
     min-height: 80vh;          
     display: flex;
@@ -288,7 +299,7 @@ body.dark-mode .roman-output {
     text-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
 }
 
-/* Sekcja formularz kontaktowy */
+/* ========== Sekcja formularz kontaktowy ========== */
 .form-section {
     min-height: 80vh;
     display: flex;
@@ -338,7 +349,8 @@ body.dark-mode .roman-output {
 }
 .custom-alert {
     position: fixed;
-    top: -100px; /* Schowany nad ekranem */
+    /* alert bedzie schowany nad ekranem stad -100px */
+    top: -100px; 
     left: 50%;
     transform: translateX(-50%);
     background-color: var(--text-main-color);
@@ -360,10 +372,10 @@ body.dark-mode .roman-output {
 .custom-alert.show {
     top: 30px;
 }
-.custom-alert.error { border-bottom: 5px solid #e74c3c; }
-.custom-alert.success { border-bottom: 5px solid #2ecc71; }
+.custom-alert.error { border-bottom: 5px solid #AD2831; }
+.custom-alert.success { border-bottom: 5px solid #38B000; }
 
-/* Stopka */
+/* ========== Stopka ========== */
 footer {
     margin-top: auto;
     background-color: var(--footer-color);
@@ -373,15 +385,16 @@ footer {
     font-size: 1.5rem;
 }
 
-/* Media query na responsywnosc podstawowa */
+/* ========== Media query na responsywnosc podstawowa ========== */
 @media (max-width: 768px) {
     header {
-        padding: 20px 5%;
+        padding: 20px 20px;
     }
     .navigation-links {
         display: flex; 
         gap: 15px;
         justify-content: center;
+        flex-wrap: wrap;
     }
     .navigation-links li {
         padding: 0; 
@@ -390,10 +403,20 @@ footer {
         font-size: 1.4rem; 
     }
     .hero-content h1 {
-        font-size: clamp(4rem, 15vw, 7rem); 
+        font-size: clamp(3.5rem, 15vw, 7rem); 
     }
     .hero-section, .todo-section, .calc-section, .form-section {
-        padding: 60px 5%;
+        padding: 60px 20px;
+        min-height: auto;   
+    }
+    .todo-container, .calc-container {
+        flex-direction: column; 
+        gap: 10px;
+        width: 100%;
+    }
+    #todo-input, #arabic-input, .button-main {
+        width: 100%; 
+        max-width: 100%;
     }
 }
 @media (max-width: 480px) {
@@ -401,34 +424,22 @@ footer {
         flex-direction: column;
         align-items: center; 
         gap: 15px;
-        padding: 20px 0;
+        padding: 20px 10px;
     }
     .logo {
         font-size: 2.2rem;
     }
     .navigation-links {
-        padding: 0;
-      
-        flex-wrap: wrap; 
-        justify-content: center;
+        gap: 10px;
     }
-    .navigation-links li {
-        padding: 0 10px;
+    .navigation-links a {
+        font-size: 1.3rem;
     }
-    .todo-container, .calc-container {
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-    }
-    #todo-input, #arabic-input, .button-main, .form-box {
-        width: 100%; 
-        max-width: 100%;
-    }
-    .button-main {
-        padding: 15px;
+    .hero-content h1 {
+        font-size: clamp(3rem, 12vw, 5rem); 
     }
     .roman-output {
-        font-size: 4rem;
+        font-size: 3.5rem; 
     }
     .custom-alert {
         width: 90%;

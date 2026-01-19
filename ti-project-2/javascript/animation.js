@@ -29,3 +29,13 @@ var timer = setInterval(function() {
         title.style.opacity = "1";
     }
 }, 15); // Odswiezamy co 15 sekund
+
+var header = document.querySelector('header');
+// nowa funkcja, pod cssa do wyswietlania border-bottom jak np. na stronie glownej notion gdzie mimo ze tresc glowna strony i jej naglowek sa tego samego koloru, po scrollu - pojawia sie "linia" oddzielajaca nawigajce od tersci glwonej
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 0) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+});

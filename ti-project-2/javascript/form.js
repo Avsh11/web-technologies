@@ -39,21 +39,21 @@ if (contactForm) {
         
         // walidacja name jak za krotkie to error wywala
         if (userName.length < 2) {
-            myAlert("Name is too short!", "error");
+            myAlert("Twoje imię jest za krótkie!", "error");
             return;
         }
         // walidacja maila - znak malpy jesli nie ma to zwraca -1 plus dlugosc tez
-        if (userEmail.indexOf("@") == -1 || uEmail.length < 5) {
-            myAlert("Email is not valid!", "error");
+        if (userEmail.indexOf("@") == -1 || userEmail.length < 5) {
+            myAlert("Adres email jest nieprawidłowy!", "error");
             return;
         }
         // Wiadomosc jak za krotka error, proste ify tak naprawde
         if (userMsg.length < 10) {
-            myAlert("Message is too short!", "error");
+            myAlert("Wiadomość jest za krótka!", "error");
             return;
         }
         // Jak wszystko spelnione alert z mode success
-        myAlert("Ave! Message sent successfully.", "success"); 
+        myAlert("Wiadomość została przesłana.", "success"); 
         contactForm.reset(); // czyscimy formularz jak poprawny, nie ma zadnego php wiec nie wysylamy go nigdzie
     };
 }

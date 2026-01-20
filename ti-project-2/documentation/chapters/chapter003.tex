@@ -1,7 +1,7 @@
 \chapter{Opis struktury projektu}
 
 \section{Użyte technologie}
-Strona internetowa \textbf{Vexillarius} została wykonana przy użyciu natywnych technologii webowych. Zgodnie z założeniami projektowymi, zrezygnowano z zewnętrznych frameworków na rzecz czystego kodu.
+Strona internetowa \textbf{VEXILLARIUS} została wykonana przy użyciu natywnych technologii webowych. Zgodnie z założeniami projektowymi, zrezygnowano z zewnętrznych frameworków na rzecz czystego kodu.
 
 \texttt{HTML5} wykorzystano do stworzenia podstawowego szkieletu witryny. Zastosowanie znaczników takich jak \texttt{<header>}, \texttt{<nav>}, \texttt{<section>} oraz \texttt{<footer>} zapewnia poprawną strukturę dokumentu i wspiera jego dostępność (accessibility).
 
@@ -9,7 +9,7 @@ Strona internetowa \textbf{Vexillarius} została wykonana przy użyciu natywnych
 
 \texttt{JavaScript} wykorzystano do stworzenia skryptów odpowiadających za funkcjonalność całej strony. Zastosowano DOM (Document Object Model) oraz obsługę zdarzeń w czasie rzeczywistym.
 \section{Struktura katalogów}
-Projekt został podzielony na katalogi, co zapewnia separację sturktury, stylów oraz skryptów. Ułatwia to konserwację kodu oraz jego ewentualną rozbudowę. 
+Projekt został podzielony na katalogi, co zapewnia separację struktury, stylów oraz skryptów. Ułatwia to konserwację kodu oraz jego ewentualną rozbudowę. 
 \vspace{0.5cm} 
 \dirtree{%
 .1 ti-project-2/.
@@ -29,26 +29,26 @@ Projekt został podzielony na katalogi, co zapewnia separację sturktury, styló
 \section{Konwencje kodowania i organizacja stylów}
 W arkuszach stylów zastosowano konwencje zwiększające czytelność i uniwersalność kodu:
 \begin{itemize}
-    \item \textbf{Zmienne CSS (:root)}: Definicje kolorów (tła, tekstu, akcentów) zostały wraz z typografią zamknięte w zmiennych. Pozwala to na błyskawiczną zmianę globalnej palety barw oraz umożliwiło Implementację trybu \texttt{dark-mode} poprzez nadpisywanie wartości zmiennych w klasie nadrzędnej.
+    \item \textbf{Zmienne CSS (:root)}: Definicje kolorów (tła, tekstu, akcentów) zostały wraz z typografią zamknięte w zmiennych. Pozwala to na błyskawiczną zmianę globalnej palety barw oraz umożliwiło implementację trybu \texttt{dark-mode} poprzez nadpisywanie wartości zmiennych w klasie nadrzędnej.
     \item \textbf{Skalowalne jednostki REM}: Bazowa wielkość czcionki została ustawiona na \texttt{50\%} (8px). Dzięki temu projekt jest łatwiej skalowalny, a jednostki \texttt{REM} pozwalają na zachowanie proporcji między elementami.
-    \item \textbf{Box-siging}: Globalne ustawienie \texttt{border-box} zapobiega problemom z obliczaniem szerokości elementów przy dodawaniu marginesów wewnętrznych (padding).
+    \item \textbf{Box-sizing}: Globalne ustawienie \texttt{border-box} zapobiega problemom z obliczaniem szerokości elementów przy dodawaniu marginesów wewnętrznych (padding).
 \end{itemize}
 \section{Implementacja logiki w JavaScript}
 Skrypty projektu zostały zaprojektowane w sposób modułowy. Każda funkcjonalność znajduje się w osobnym pliku, co zapobiega konfliktom nazw i ułatwia ewentualne debugowanie:
 \begin{itemize}
 \item \textbf{Manipulacja DOM}: Skrypty dynamicznie tworzą (np. lista zadań) lub modyfikują (np. alerty) elementy drzewa dokumentu.
-\item \textbf{Event Listeners}: Interakcja z użytkownikiem opiera się na nasłuchiwaniu zdarzeń takich jak \texttt{click}, \texttt{scroll} czy \texttt{keypress}.
+\item \textbf{Event Listeners}: Interakcja z użytkownikiem opiera się na nasłuchiwaniu zdarzeń, takich jak \texttt{click}, \texttt{scroll} czy \texttt{keypress}.
 \item \textbf{Powiadomienia}: Zastosowano funkcje czasu (\texttt{setTimeout}), aby kontrolować czas wyświetlania komunikatów błędów i sukcesów w przypadku formularza kontaktowego.
 \end{itemize}
 \section{Responsywność (RWD)}
-Strona dostosowuje się do urządxeń mobilnych poprzez \textit{Media Queries}. Zastosowano podejście które zakłada płynne przejścia między szerokościami tak aby strona wyglądała czytelnie na urządzeniach węższych.
+Strona dostosowuje się do urządzeń mobilnych poprzez \textit{Media Queries}. Zastosowano podejście, które zakłada płynne przejścia między szerokościami, tak aby strona wyglądała czytelnie na urządzeniach węższych.
 \begin{itemize}
     \item \textbf{Typografia:} Wykorzystano funkcję \texttt{clamp()}, która automatycznie dobiera wielkość czcionki w zależności od szerokości okna przeglądarki.
     \item \textbf{Pasek nawigacji:} Pasek nawigacji na telefonach zmienia swój układ na kolumnowy.
-    \item \textbf{Flex-column:} Na mniejszych ekranach kontenery formularza i narzędzi (kalkulator, lista) zmieniają orientacje z poziomej na pionową.
+    \item \textbf{Flex-column:} Na mniejszych ekranach kontenery formularza i narzędzi (kalkulator, lista) zmieniają orientację z poziomej na pionową.
 \end{itemize}
 \section{Prezentacja najważniejszych skryptów i ich fragmentów}
-W niniejszej sekcji przedstawiono implementację oraz krótką analizę naważniejszych skryptów \textbf{JavaScript}. Każdy fragment kodu został opatrzony krótkim komentarzem technicznym wyjaśniającym zasadę jego działania.
+W niniejszej sekcji przedstawiono implementację oraz krótką analizę najważniejszych skryptów \textbf{JavaScript}. Każdy fragment kodu został opatrzony krótkim komentarzem technicznym wyjaśniającym zasadę jego działania.
 \subsection{Zarządzanie motywem (theme.js)}
 Skrypt ten odpowiada za interakcję z użytkownikiem w zakresie wyboru preferowanego motywu wizualnego (Dark Mode / Light Mode).
 \begin{center}
@@ -62,7 +62,7 @@ pageBody.classList.toggle('dark-mode');
 \end{lstlisting}
 \end{minipage}
 \end{center}
-\textbf{Wyjaśnienie:} Funkcja przypisana do zdarzenia \texttt{onclick} przycisku wywołuje metodę \texttt{toggle()} na liście klas dokumentu. Mechanizm automatycznie dodaje klasę \texttt{.dark-mode} przy jej braku lub usuwa ją, gdy jest już ona obecna. Powoduje to natycmiastową aktualizację wartości zmiennych CSS.
+\textbf{Wyjaśnienie:} Funkcja przypisana do zdarzenia \texttt{onclick} przycisku wywołuje metodę \texttt{toggle()} na liście klas dokumentu. Mechanizm automatycznie dodaje klasę \texttt{.dark-mode} przy jej braku lub usuwa ją, gdy jest już ona obecna. Powoduje to natychmiastową aktualizację wartości zmiennych CSS.
 \subsection{Animacja powitalna sekcji Hero (animation.js)}
 Skrypt odpowiedzialny za pojawienie się tytułu strony wykorzystuje funkcję czasu do płynnej zmiany właściwości CSS.
 \begin{center}
@@ -88,7 +88,7 @@ if (position <= 0) {
 \end{lstlisting}
 \end{minipage}
 \end{center}
-\textbf{Wyjaśnienie:} Skrypt ręcznie steruje animacją przy użyciu metody \texttt{setInterval}, która wykonuje blok co 15 milisekund. W każdym kroku wartość zmiennej \texttt{position} maleje powodując ruch tekstu w górę, zaś \texttt{opacity} rośnie zwiększając widoczność. Po osiągnięciu docelowej pozycji, interwał jest czyszczony przez \texttt{clearInterval}, co zatrzymuje proces.
+\textbf{Wyjaśnienie:} Skrypt ręcznie steruje animacją przy użyciu metody \texttt{setInterval}, która wykonuje blok co 15 milisekund. W każdym kroku wartość zmiennej \texttt{position} maleje, powodując ruch tekstu w górę, zaś \texttt{opacity} rośnie, zwiększając widoczność. Po osiągnięciu docelowej pozycji, interwał jest czyszczony przez \texttt{clearInterval}, co zatrzymuje proces.
 \subsection{Pasek nawigacji (animation.js)}
 Skrypt ten zapewnia wizualne oddzielenie paska nawigacji od treści strony podczas jej przewijania.
 \begin{center}
@@ -194,4 +194,4 @@ if (contactForm) {
 \end{lstlisting}
 \end{minipage}
 \end{center}
-\textbf{Wyjaśnienie:} Funkcja \texttt{myAlert} dynamicznie buduje okno powiadomienia w drzewie DOM, wykorzystując funkcję \texttt{setTimeout} do sterowania animacją pojawiania się i znikania klasy styulu. Skrypt do walidacji danych formularza blokuje domyślną wysyłkę formularza przy użyciu \texttt{e.preventDefault()} i przeprowadza test poprawności adres e-mail, imienia, wiadomości wywołując alert z odpowiednim statusem sukcesu albo błędu.
+\textbf{Wyjaśnienie:} Funkcja \texttt{myAlert} dynamicznie buduje okno powiadomienia w drzewie DOM, wykorzystując funkcję \texttt{setTimeout} do sterowania animacją pojawiania się i znikania klasy stylu. Skrypt do walidacji danych formularza blokuje domyślną wysyłkę formularza przy użyciu \texttt{e.preventDefault()} i przeprowadza test poprawności adresu e-mail, imienia, wiadomości wywołując alert z odpowiednim statusem sukcesu albo błędu.

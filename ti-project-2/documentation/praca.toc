@@ -1,26 +1,38 @@
 \babel@toc {polish}{}\relax 
-\contentsline {chapter}{\numberline {1}Wprowadzenie}{6}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Opis założeń projektu}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Wymagania funkcjonalne}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Wymagania niefunkcjonalne}{7}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Opis struktury projektu}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Użyte technologie}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Struktura katalogów}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Konwencje kodowania i organizacja stylów}{9}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Implementacja logiki w JavaScript}{10}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Responsywność (RWD)}{10}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Prezentacja najważniejszych skryptów i ich fragmentów}{10}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Zarządzanie motywem (theme.js)}{10}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Animacja powitalna sekcji Hero (animation.js)}{11}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Pasek nawigacji (animation.js)}{11}{subsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.6.4}Konwerter liczb rzymskich (calc.js)}{11}{subsection.3.6.4}%
-\contentsline {subsection}{\numberline {3.6.5}Interaktywna lista zadań (todo.js)}{12}{subsection.3.6.5}%
-\contentsline {subsection}{\numberline {3.6.6}Obsługa formularza i system alertów (form.js)}{13}{subsection.3.6.6}%
-\contentsline {chapter}{\numberline {4}Harmonogram realizacji projektu}{14}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Etapy realizacji projektu}{14}{section.4.1}%
-\contentsline {section}{\numberline {4.2}System kontroli wersji}{14}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Prezentacja warstwy użytkowej projektu}{15}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Instrukcja uruchomieniowa}{16}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Podsumowanie}{17}{chapter.7}%
-\contentsline {section}{\textbf {Bibliografia}}{18}{Item.21}%
-\contentsline {section}{\textbf {Spis rysunków}}{19}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Wprowadzenie}{7}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Opis założeń projektu}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Wymagania funkcjonalne}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Wymagania niefunkcjonalne}{8}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Opis struktury projektu}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Użyte technologie}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Struktura katalogów}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Konwencje kodowania i organizacja stylów}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Implementacja logiki w JavaScript}{11}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Responsywność (RWD)}{11}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Prezentacja najważniejszych skryptów i ich fragmentów}{11}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Zarządzanie motywem (theme.js)}{11}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Animacja powitalna sekcji Hero (animation.js)}{12}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Pasek nawigacji (animation.js)}{12}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Konwerter liczb rzymskich (calc.js)}{12}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}Interaktywna lista zadań (todo.js)}{13}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.6}Obsługa formularza i system alertów (form.js)}{14}{subsection.3.6.6}%
+\contentsline {chapter}{\numberline {4}Harmonogram realizacji projektu}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Etapy realizacji projektu}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}System kontroli wersji}{15}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Prezentacja warstwy użytkowej projektu}{16}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Identyfikacja wizualna i stylistyka strony}{16}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Kolorystyka}{16}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Typografia}{16}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Prezentacja witryny}{16}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Pasek nawigacji}{16}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Sekcja Hero}{17}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Lista To-Do}{17}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Kalkulator rzymski}{17}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Formularz kontaktowy}{18}{subsection.5.4.5}%
+\contentsline {subsection}{\numberline {5.4.6}Alert - Błąd}{18}{subsection.5.4.6}%
+\contentsline {subsection}{\numberline {5.4.7}Alert - Sukces}{19}{subsection.5.4.7}%
+\contentsline {subsection}{\numberline {5.4.8}Tryb ciemny}{19}{subsection.5.4.8}%
+\contentsline {chapter}{\numberline {6}Instrukcja uruchomieniowa}{21}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Podsumowanie}{22}{chapter.7}%
+\contentsline {section}{\textbf {Bibliografia}}{23}{Item.21}%
+\contentsline {section}{\textbf {Spis rysunków}}{24}{chapter*.10}%

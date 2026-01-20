@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.15)  20 JAN 2026 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.15)  20 JAN 2026 19:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -785,7 +785,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 248.
  (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figures/ur.jpg, id=103, 134.00063pt x 134.00063pt>
+<figures/ur.jpg, id=151, 134.00063pt x 134.00063pt>
 File: figures/ur.jpg Graphic file (type jpg)
 <use figures/ur.jpg>
 Package pdftex.def Info: figures/ur.jpg  used on input line 248.
@@ -811,9 +811,12 @@ l.248 \titlepages
 \tf@toc=\write4
 \openout4 = `praca.toc'.
 
+
+Underfull \vbox (badness 1158) has occurred while \output is active []
+
  [5
 
-]
+] [6]
 \openout2 = `chapters/chapter001.aux'.
 
  (chapters/chapter001.tex
@@ -823,7 +826,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-) [6
+) [7
 
 
 
@@ -839,29 +842,29 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 32.
  (C:\Users\PC\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [7
+) [8
 
 
 
 
-]) [8]
+]) [9]
 \openout2 = `chapters/chapter003.aux'.
 
  (chapters/chapter003.tex
 Rozdzia\l  3.
-[9
+[10
 
 
 
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 56.
- [10] [11] [12]) [13]
+ [11] [12] [13]) [14]
 \openout2 = `chapters/chapter004.aux'.
 
  (chapters/chapter004.tex
 Rozdzia\l  4.
-) [14
+) [15
 
 
 
@@ -871,12 +874,176 @@ Rozdzia\l  4.
 
  (chapters/chapter005.tex
 Rozdzia\l  5.
-) [15
+Package epstopdf Info: Source file: <figures/5.1.eps>
+(epstopdf)                    date: 2026-01-20 16:38:46
+(epstopdf)                    size: 3434915 bytes
+(epstopdf)             Output file: <figures/5.1-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 19:41:38
+(epstopdf)                    size: 14850 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/5.1-eps-converted-to.pdf figures/5.1.eps>
+(epstopdf)             \includegraphics on input line 24.
+Package epstopdf Info: Output file is already uptodate.
+<figures/5.1-eps-converted-to.pdf, id=365, 1073.00874pt x 74.2775pt>
+File: figures/5.1-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/5.1-eps-converted-to.pdf>
+Package pdftex.def Info: figures/5.1-eps-converted-to.pdf  used on input line 24.
+(pdftex.def)             Requested size: 429.19589pt x 29.71046pt.
+
+Overfull \hbox (2.40454pt too wide) in paragraph at lines 24--25
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <figures/5.2.eps>
+(epstopdf)                    date: 2026-01-20 16:38:50
+(epstopdf)                    size: 21367211 bytes
+(epstopdf)             Output file: <figures/5.2-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 19:46:59
+(epstopdf)                    size: 50005 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/5.2-eps-converted-to.pdf figures/5.2.eps>
+(epstopdf)             \includegraphics on input line 31.
+Package epstopdf Info: Output file is already uptodate.
+<figures/5.2-eps-converted-to.pdf, id=367, 1071.00125pt x 465.74pt>
+File: figures/5.2-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/5.2-eps-converted-to.pdf>
+Package pdftex.def Info: figures/5.2-eps-converted-to.pdf  used on input line 31.
+(pdftex.def)             Requested size: 428.39291pt x 186.2927pt.
+
+Overfull \hbox (1.60156pt too wide) in paragraph at lines 31--32
+ [][] 
+ []
+
+[16
 
 
 
 
-]
+ <./figures/5.1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/5.3.eps>
+(epstopdf)                    date: 2026-01-20 16:38:54
+(epstopdf)                    size: 19950026 bytes
+(epstopdf)             Output file: <figures/5.3-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 19:43:03
+(epstopdf)                    size: 47831 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/5.3-eps-converted-to.pdf figures/5.3.eps>
+(epstopdf)             \includegraphics on input line 38.
+Package epstopdf Info: Output file is already uptodate.
+<figures/5.3-eps-converted-to.pdf, id=378, 1071.00125pt x 434.62375pt>
+File: figures/5.3-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/5.3-eps-converted-to.pdf>
+Package pdftex.def Info: figures/5.3-eps-converted-to.pdf  used on input line 38.
+(pdftex.def)             Requested size: 428.39291pt x 173.8464pt.
+
+Overfull \hbox (1.60156pt too wide) in paragraph at lines 38--39
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <figures/5.4.eps>
+(epstopdf)                    date: 2026-01-20 16:38:57
+(epstopdf)                    size: 15514724 bytes
+(epstopdf)             Output file: <figures/5.4-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 19:49:11
+(epstopdf)                    size: 69349 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/5.4-eps-converted-to.pdf figures/5.4.eps>
+(epstopdf)             \includegraphics on input line 45.
+Package epstopdf Info: Output file is already uptodate.
+<figures/5.4-eps-converted-to.pdf, id=380, 1069.9975pt x 338.26375pt>
+File: figures/5.4-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/5.4-eps-converted-to.pdf>
+Package pdftex.def Info: figures/5.4-eps-converted-to.pdf  used on input line 45.
+(pdftex.def)             Requested size: 427.99142pt x 135.30309pt.
+
+Overfull \hbox (1.20007pt too wide) in paragraph at lines 45--46
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <./figures/5.2-eps-converted-to.pdf> <./figures/5.3-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/5.5.eps>
+(epstopdf)                    date: 2026-01-20 16:39:05
+(epstopdf)                    size: 22991794 bytes
+(epstopdf)             Output file: <figures/5.5-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 19:51:23
+(epstopdf)                    size: 57709 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/5.5-eps-converted-to.pdf figures/5.5.eps>
+(epstopdf)             \includegraphics on input line 52.
+Package epstopdf Info: Output file is already uptodate.
+<figures/5.5-eps-converted-to.pdf, id=395, 1071.00125pt x 500.87125pt>
+File: figures/5.5-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/5.5-eps-converted-to.pdf>
+Package pdftex.def Info: figures/5.5-eps-converted-to.pdf  used on input line 52.
+(pdftex.def)             Requested size: 428.39291pt x 200.34494pt.
+
+Overfull \hbox (1.60156pt too wide) in paragraph at lines 52--53
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <figures/5.6.eps>
+(epstopdf)                    date: 2026-01-20 16:39:01
+(epstopdf)                    size: 26227028 bytes
+(epstopdf)             Output file: <figures/5.6-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 19:52:09
+(epstopdf)                    size: 84102 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/5.6-eps-converted-to.pdf figures/5.6.eps>
+(epstopdf)             \includegraphics on input line 59.
+Package epstopdf Info: Output file is already uptodate.
+<figures/5.6-eps-converted-to.pdf, id=397, 1073.00874pt x 570.13pt>
+File: figures/5.6-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/5.6-eps-converted-to.pdf>
+Package pdftex.def Info: figures/5.6-eps-converted-to.pdf  used on input line 59.
+(pdftex.def)             Requested size: 429.19589pt x 228.04796pt.
+
+Overfull \hbox (2.40454pt too wide) in paragraph at lines 59--60
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./figures/5.4-eps-converted-to.pdf> <./figures/5.5-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/5.7.eps>
+(epstopdf)                    date: 2026-01-20 16:39:39
+(epstopdf)                    size: 26328585 bytes
+(epstopdf)             Output file: <figures/5.7-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 19:53:04
+(epstopdf)                    size: 84581 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/5.7-eps-converted-to.pdf figures/5.7.eps>
+(epstopdf)             \includegraphics on input line 66.
+Package epstopdf Info: Output file is already uptodate.
+<figures/5.7-eps-converted-to.pdf, id=411, 1071.00125pt x 573.14125pt>
+File: figures/5.7-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/5.7-eps-converted-to.pdf>
+Package pdftex.def Info: figures/5.7-eps-converted-to.pdf  used on input line 66.
+(pdftex.def)             Requested size: 428.39291pt x 229.25243pt.
+
+Overfull \hbox (1.60156pt too wide) in paragraph at lines 66--67
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <figures/5.8.eps>
+(epstopdf)                    date: 2026-01-20 16:39:35
+(epstopdf)                    size: 26222507 bytes
+(epstopdf)             Output file: <figures/5.8-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-01-20 19:54:04
+(epstopdf)                    size: 63690 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/5.8-eps-converted-to.pdf figures/5.8.eps>
+(epstopdf)             \includegraphics on input line 73.
+Package epstopdf Info: Output file is already uptodate.
+<figures/5.8-eps-converted-to.pdf, id=413, 1069.9975pt x 571.13374pt>
+File: figures/5.8-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/5.8-eps-converted-to.pdf>
+Package pdftex.def Info: figures/5.8-eps-converted-to.pdf  used on input line 73.
+(pdftex.def)             Requested size: 427.99142pt x 228.44945pt.
+
+Overfull \hbox (1.20007pt too wide) in paragraph at lines 73--74
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19 <./figures/5.6-eps-converted-to.pdf> <./figures/5.7-eps-converted-to.pdf>]) [20 <./figures/5.8-eps-converted-to.pdf>]
 \openout2 = `chapters/chapter006.aux'.
 
  (chapters/chapter006.tex
@@ -895,12 +1062,12 @@ Package epstopdf Info: Source file: <figures/6.1.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=figures/6.1-eps-converted-to.pdf figures/6.1.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
-<figures/6.1-eps-converted-to.pdf, id=305, 106.3975pt x 17.06375pt>
+<figures/6.1-eps-converted-to.pdf, id=435, 106.3975pt x 17.06375pt>
 File: figures/6.1-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/6.1-eps-converted-to.pdf>
 Package pdftex.def Info: figures/6.1-eps-converted-to.pdf  used on input line 31.
 (pdftex.def)             Requested size: 426.79135pt x 68.46175pt.
-) [16
+) [21
 
 
 
@@ -910,12 +1077,12 @@ Package pdftex.def Info: figures/6.1-eps-converted-to.pdf  used on input line 31
 
  (chapters/chapter007.tex
 Rozdzia\l  7.
-) [17
+) [22
 
 
 
 
-] (praca.bbl) [18
+] (praca.bbl) [23
 
 
 
@@ -923,7 +1090,7 @@ Rozdzia\l  7.
 \tf@lof=\write5
 \openout5 = `praca.lof'.
 
- [19
+ [24
 
 ]
 
@@ -936,20 +1103,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `praca.out' has not changed.
-(rerunfilecheck)             Checksum: AC34EC43C3BFC0FB7042C13FF83221A8;4977.
+(rerunfilecheck)             Checksum: 536F4CBC3E20A6D92175C68EB28709B5;6715.
  ) 
 Here is how much of TeX's memory you used:
- 24352 strings out of 474486
- 462147 string characters out of 5745170
+ 24454 strings out of 474486
+ 464723 string characters out of 5745170
  2224542 words of memory out of 5000000
- 46041 multiletter control sequences out of 15000+600000
+ 46118 multiletter control sequences out of 15000+600000
  626993 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,12n,94p,733b,1460s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on praca.pdf (17 pages, 225432 bytes).
+Output written on praca.pdf (22 pages, 705771 bytes).
 PDF statistics:
- 437 PDF objects out of 1000 (max. 8388607)
- 169 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 581 PDF objects out of 1000 (max. 8388607)
+ 194 named destinations out of 1000 (max. 500000)
+ 347 words of extra memory for PDF output out of 10000 (max. 10000000)
 

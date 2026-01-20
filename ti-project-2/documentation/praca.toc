@@ -7,15 +7,20 @@
 \contentsline {section}{\numberline {3.1}Użyte technologie}{9}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Struktura katalogów}{9}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Konwencje kodowania i organizacja stylów}{9}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Implementacja efektów wizualnych i optymalizacja}{10}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Mechanizm Scroll Snap (Podstrony)}{10}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Responsywność (RWD)}{10}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Harmonogram realizacji projektu}{11}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Etapy realizacji projektu}{11}{section.4.1}%
-\contentsline {section}{\numberline {4.2}System kontroli wersji}{11}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Prezentacja warstwy użytkowej projektu}{12}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Instrukcja uruchomieniowa}{13}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Testowanie poprawności i stopnia optymalizacji kodu}{14}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Podsumowanie}{15}{chapter.8}%
-\contentsline {section}{\textbf {Bibliografia}}{16}{Item.26}%
-\contentsline {section}{\textbf {Spis rysunków}}{17}{chapter*.2}%
+\contentsline {section}{\numberline {3.4}Implementacja logiki w JavaScript}{10}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Responsywność (RWD)}{10}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Prezentacja najważniejszych skryptów i ich fragmentów}{10}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Zarządzanie motywem (theme.js)}{10}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Animacja powitalna sekcji Hero (animation.js)}{11}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Pasek nawigacji (animation.js)}{11}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Konwerter liczb rzymskich (calc.js)}{11}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}Interaktywna lista zadań (todo.js)}{12}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.6}Obsługa formularza i system alertów (form.js)}{13}{subsection.3.6.6}%
+\contentsline {chapter}{\numberline {4}Harmonogram realizacji projektu}{14}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Etapy realizacji projektu}{14}{section.4.1}%
+\contentsline {section}{\numberline {4.2}System kontroli wersji}{14}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Prezentacja warstwy użytkowej projektu}{15}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Instrukcja uruchomieniowa}{16}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Podsumowanie}{17}{chapter.7}%
+\contentsline {section}{\textbf {Bibliografia}}{18}{Item.21}%
+\contentsline {section}{\textbf {Spis rysunków}}{19}{chapter*.2}%

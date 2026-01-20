@@ -15,8 +15,6 @@ Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: chapters/chapter006.aux
 Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: chapters/chapter007.aux
-Reallocating 'name_of_file' (item size: 1) to 24 items.
-A level-1 auxiliary file: chapters/chapter008.aux
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
@@ -31,7 +29,7 @@ Warning--to sort, need author or key in GoogleFonts
 Warning--to sort, need author or key in ChatGPT
 You've used 8 entries,
             2118 wiz_defined-function locations,
-            538 strings with 4685 characters,
+            537 strings with 4662 characters,
 and the built_in function-call counts, 1308 in all, are:
 = -- 120
 > -- 8

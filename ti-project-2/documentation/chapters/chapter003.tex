@@ -1,71 +1,197 @@
 \chapter{Opis struktury projektu}
 
 \section{Użyte technologie}
-Zgodnie z przyjętymi wymaganiami, strona internetowa \textbf{Virexon} wykonana została tylko i wyłącznie za pomocą języka znaczników \texttt{HTML5} oraz kaskadowych arkuszy stylów \texttt{CSS3} bez żadnych zewnętrznych bibliotek oraz frameworków.
+Strona internetowa \textbf{Vexillarius} została wykonana przy użyciu natywnych technologii webowych. Zgodnie z założeniami projektowymi, zrezygnowano z zewnętrznych frameworków na rzecz czystego kodu.
 
- \texttt{HTML5} wykorzystano do stworzenia podstawowego szkieletu witryny uwzględniając w nim znaczniki takie jak chociażby \texttt{<header>}, \texttt{<nav>}, \texttt{<section>} oraz \texttt{<footer>} co pozytywnie wpływa na pozycjonowanie (SEO) oraz sam układ strony.
+\texttt{HTML5} wykorzystano do stworzenia podstawowego szkieletu witryny. Zastosowanie znaczników takich jak \texttt{<header>}, \texttt{<nav>}, \texttt{<section>} oraz \texttt{<footer>} zapewnia poprawną strukturę dokumentu i wspiera jego dostępność (accessibility).
 
- \texttt{CSS} wykorzystano do stworzenia warstwy wizualnej opartej na nowoczesnych standardach, w tym Flexbox do układów oraz zmienne do prostego zarządzania kolorami. Użyte zostały również animacje klatkowe (\texttt{@keyframes}).
+\texttt{CSS} wykorzystano do stworzenia warstwy wizualnej opartej na nowoczesnych standardach, w tym Flexbox do układów oraz zmienne do prostego zarządzania kolorami i typografią.
 
+\texttt{JavaScript} wykorzystano do stworzenia skryptów odpowiadających za funkcjonalność całej strony. Zastosowano DOM (Document Object Model) oraz obsługę zdarzeń w czasie rzeczywistym.
 \section{Struktura katalogów}
- Struktura katalogów została zaprojektowana z myślą o łatwym zarządzaniu zasobami i ewentualnym rozbudowaniu projektu. Cała struktura przedstawiona została w formie drzewka poniżej:
+Projekt został podzielony na katalogi, co zapewnia separację sturktury, stylów oraz skryptów. Ułatwia to konserwację kodu oraz jego ewentualną rozbudowę. 
 \vspace{0.5cm} 
 \dirtree{%
-.1 ti-project-1/.
-.2 assets/ \DTcomment{Zasoby graficzne i ikony}.
-.3 fotografie.webp \DTcomment{Używane do grafik w treści}.
-.3 fotografie.avif \DTcomment{Używane do tła sekcji}.
-.3 favicon.svg.
+.1 ti-project-2/.
 .2 css/ \DTcomment{Arkusze stylów}.
-.3 style.css \DTcomment{Główne style strony głównej}.
-.3 subsite.css \DTcomment{Style dla podstron}.
-.2 html/ \DTcomment{Pliki źródłowe stron}.
-.3 index.html \DTcomment{Strona główna}.
-.3 about.html.
-.3 services.html.
-.3 jobs.html.
+.3 style.css \DTcomment{Główny arkusz stylów witryny}.
+.2 documentation/ \DTcomment{Pliki źródłowe dokumentacji}.
+.2 html/ \DTcomment{Struktura dokumentów}.
+.3 index.html \DTcomment{Główny plik strony internetowej}.
+.2 javascript/ \DTcomment{Logika aplikacji (skrypty)}.
+.3 animation.js \DTcomment{Obsługa animacji i efektów scrolla}.
+.3 calc.js \DTcomment{Logika kalkulatora rzymskiego}.
+.3 form.js \DTcomment{Obsługa formularza i walidacji}.
+.3 theme.js \DTcomment{Skrypt zmiany motywu kolorystycznego}.
+.3 todo.js \DTcomment{Obsługa interaktywnej listy zadań}.
 }
 \vspace{0.5cm}
 \section{Konwencje kodowania i organizacja stylów}
-
-Aby zapewnić czytelność i łatwość konserwacji kodu, w arkuszach stylów zastosowano następujące konwencje:
+W arkuszach stylów zastosowano konwencje zwiększające czytelność i uniwersalność kodu:
 \begin{itemize}
-    \item \textbf{Zmienne CSS (:root)}: Kolory oraz fonty zostały zdefiniowane w pseudoklasie \texttt{:root}. Umożliwia to szybką zmianę motywu kolorystycznego w jednym miejscu, bez konieczności edycji całego pliku (np. \texttt{--text-color-accent: \#C1121F}).
-    \item \textbf{Skalowalne jednostki REM}: W projekcie zastosowano technikę ustawienia bazowej wielkości czcionki dla elementu \texttt{html} na \texttt{50\%}. Dzięki temu 1rem odpowiada 8px (domyślnie przeglądarka ma 16px, 50\% z 16px to 8px).
-    \item \textbf{Reset stylów}: Zastosowano globalny reset (\texttt{margin: 0; padding: 0; box-sizing: border-box;}), aby wyeliminować różnice w domyślnym stylowaniu przez różne przeglądarki.
+    \item \textbf{Zmienne CSS (:root)}: Definicje kolorów (tła, tekstu, akcentów) zostały wraz z typografią zamknięte w zmiennych. Pozwala to na błyskawiczną zmianę globalnej palety barw oraz umożliwiło Implementację trybu \texttt{dark-mode} poprzez nadpisywanie wartości zmiennych w klasie nadrzędnej.
+    \item \textbf{Skalowalne jednostki REM}: Bazowa wielkość czcionki została ustawiona na \texttt{50\%} (8px). Dzięki temu projekt jest łatwiej skalowalny, a jednostki \texttt{REM} pozwalają na zachowanie proporcji między elementami.
+    \item \textbf{Box-siging}: Globalne ustawienie \texttt{border-box} zapobiega problemom z obliczaniem szerokości elementów przy dodawaniu marginesów wewnętrznych (padding).
 \end{itemize}
-
-\section{Implementacja efektów wizualnych i optymalizacja}
-
-W projekcie duży nacisk położono na płynność interfejsu i nowoczesny wygląd.
+\section{Implementacja logiki w JavaScript}
+Skrypty projektu zostały zaprojektowane w sposób modułowy. Każda funkcjonalność znajduje się w osobnym pliku, co zapobiega konfliktom nazw i ułatwia ewentualne debugowanie:
 \begin{itemize}
-    \item \textbf{Optymalizacja renderowania}: W sekcji Hero oraz przy obrazkach wykorzystano właściwość \texttt{transform: translateZ(0)} oraz \texttt{will-change}. Wymusza to na przeglądarce skorzystanie z akceleracji sprzętowej (GPU), co zapobiega "migotaniu" i spadkom klatek podczas animacji.
-    \item \textbf{Animacje wejścia}: Zastosowano animację \texttt{@keyframes jumpIn} dla nagłówków, która łączy zmianę przezroczystości z przesunięciem w osi Y, tworząc efekt dynamicznego pojawiania się treści.
-    \item \textbf{Interaktywne elementy}: Przyciski, logo oraz sekcje z obrazkami posiadają zdefiniowane stany \texttt{:hover} z płynnymi przejściami (\texttt{transition}), np. efekt skali (\texttt{scale}) czy zmiana filtru szarości (\texttt{grayscale}) na kolor.
+\item \textbf{Manipulacja DOM}: Skrypty dynamicznie tworzą (np. lista zadań) lub modyfikują (np. alerty) elementy drzewa dokumentu.
+\item \textbf{Event Listeners}: Interakcja z użytkownikiem opiera się na nasłuchiwaniu zdarzeń takich jak \texttt{click}, \texttt{scroll} czy \texttt{keypress}.
+\item \textbf{Powiadomienia}: Zastosowano funkcje czasu (\texttt{setTimeout}), aby kontrolować czas wyświetlania komunikatów błędów i sukcesów w przypadku formularza kontaktowego.
 \end{itemize}
-
-\section{Mechanizm Scroll Snap (Podstrony)}
-
-Dla podstron zaimplementowano efekt przyciągania przewijania, który dzieli treść na pełnoekranowe sekcje.
-\begin{itemize}
-    \item Wykorzystano właściwości \texttt{scroll-snap-type: y mandatory} dla kontenera oraz \texttt{scroll-snap-align: start} dla sekcji. Dzięki temu użytkownik podczas przewijania automatycznie "dokuje" do kolejnego logicznego bloku treści, co buduje narracyjny charakter strony.
-    \item Każda sekcja posiada wysokość \texttt{100vh} (viewport height), gwarantując wypełnienie całego ekranu.
-\end{itemize}
-
 \section{Responsywność (RWD)}
-
-Strona jest w pełni responsywna i dostosowuje się do urządzeń mobilnych oraz tabletów. Wykorzystano podejście priorytetyzujące urządzenia desktopowe z punktami przerwania dla szerokości:
+Strona dostosowuje się do urządxeń mobilnych poprzez \textit{Media Queries}. Zastosowano podejście które zakłada płynne przejścia między szerokościami tak aby strona wyglądała czytelnie na urządzeniach węższych.
 \begin{itemize}
-    \item \textbf{1440px}
-    \item \textbf{1200px}
-    \item \textbf{1024px/900px}
-    \item \textbf{600px}
+    \item \textbf{Typografia:} Wykorzystano funkcję \texttt{clamp()}, która automatycznie dobiera wielkość czcionki w zależności od szerokości okna przeglądarki.
+    \item \textbf{Pasek nawigacji:} Pasek nawigacji na telefonach zmienia swój układ na kolumnowy.
+    \item \textbf{Flex-column:} Na mniejszych ekranach kontenery formularza i narzędzi (kalkulator, lista) zmieniają orientacje z poziomej na pionową.
 \end{itemize}
+\section{Prezentacja najważniejszych skryptów i ich fragmentów}
+W niniejszej sekcji przedstawiono implementację oraz krótką analizę naważniejszych skryptów \textbf{JavaScript}. Każdy fragment kodu został opatrzony krótkim komentarzem technicznym wyjaśniającym zasadę jego działania.
+\subsection{Zarządzanie motywem (theme.js)}
+Skrypt ten odpowiada za interakcję z użytkownikiem w zakresie wyboru preferowanego motywu wizualnego (Dark Mode / Light Mode).
+\begin{center}
+\begin{minipage}{0.85\textwidth}
+\begin{lstlisting}[style=styleEditorJS, caption={Przełącznik motywów Dark Mode / Light Mode}]
+var themeButton = document.getElementById('theme-button');
+themeButton.onclick = function() {
+var pageBody = document.body;
+pageBody.classList.toggle('dark-mode');
+};
+\end{lstlisting}
+\end{minipage}
+\end{center}
+\textbf{Wyjaśnienie:} Funkcja przypisana do zdarzenia \texttt{onclick} przycisku wywołuje metodę \texttt{toggle()} na liście klas dokumentu. Mechanizm automatycznie dodaje klasę \texttt{.dark-mode} przy jej braku lub usuwa ją, gdy jest już ona obecna. Powoduje to natycmiastową aktualizację wartości zmiennych CSS.
+\subsection{Animacja powitalna sekcji Hero (animation.js)}
+Skrypt odpowiedzialny za pojawienie się tytułu strony wykorzystuje funkcję czasu do płynnej zmiany właściwości CSS.
+\begin{center}
+\begin{minipage}{0.85\textwidth}
+\begin{lstlisting}[style=styleEditorJS, caption={Implementacja animacji "fade-in-up"}]
+var title = document.querySelector('.hero-content h1');
+var position = 50;
+var opacity = 0;
+title.style.marginTop = position + "px";
+title.style.opacity = opacity;
+var timer = setInterval(function() {
+position = position - 1;
+opacity = opacity + 0.02;
+title.style.marginTop = position + "px";
+title.style.opacity = opacity;
 
-Dodatkowe zmiany w układzie mobilnym:
-\begin{itemize}
-    \item \textbf{Zmiana układu Flexbox:} Wiersze (\texttt{.feature-row}, \texttt{.child-container}) zmieniają kierunek z poziomego na pionowy (\texttt{flex-direction: column}), a elementy układane są jeden pod drugim.
-    \item \textbf{Dezaktywacja Scroll Snap}: Na urządzeniach dotykowych o mniejszej rozdzielczości (poniżej 1024px) mechanizm \texttt{scroll-snap} jest wyłączany (\texttt{scroll-snap-type: none}), a wysokość sekcji zmienia się z \texttt{100vh} na \texttt{auto}. Zapobiega to blokowaniu się przewijania na telefonach i poprawia UI/UX.
-    \item \textbf{Dostosowanie typografii}: Wielkości czcionek (np. nagłówków Hero) są redukowane, aby mieściły się na węższych ekranach bez przełamywania słów.
-    \item \textbf{Nawigacja}: Pasek nawigacji na telefonach zmienia układ na kolumnowy lub "wrap", aby pomieścić wszystkie linki w obszarze dotykowym.
-\end{itemize}
+if (position <= 0) {
+    clearInterval(timer);
+    title.style.marginTop = "0px";
+    title.style.opacity = "1";
+}
+}, 15);
+\end{lstlisting}
+\end{minipage}
+\end{center}
+\textbf{Wyjaśnienie:} Skrypt ręcznie steruje animacją przy użyciu metody \texttt{setInterval}, która wykonuje blok co 15 milisekund. W każdym kroku wartość zmiennej \texttt{position} maleje powodując ruch tekstu w górę, zaś \texttt{opacity} rośnie zwiększając widoczność. Po osiągnięciu docelowej pozycji, interwał jest czyszczony przez \texttt{clearInterval}, co zatrzymuje proces.
+\subsection{Pasek nawigacji (animation.js)}
+Skrypt ten zapewnia wizualne oddzielenie paska nawigacji od treści strony podczas jej przewijania.
+\begin{center}
+\begin{minipage}{0.85\textwidth}
+\begin{lstlisting}[style=styleEditorJS, caption={Zmiana stylu nagłówka przy przewijaniu}]
+var header = document.querySelector('header');
+window.addEventListener('scroll', () => {
+if (window.scrollY > 0) {
+header.classList.add('scrolled');
+} else {
+header.classList.remove('scrolled');
+}
+});
+\end{lstlisting}
+\end{minipage}
+\end{center}
+\textbf{Wyjaśnienie:} Skrypt rejestruje słuchacza zdarzeń (\texttt{Event Listener}) dla obiektu \texttt{window}. Gdy wartość \texttt{scrollY} przekracza 0, do nagłówka dodawana jest klasa \texttt{.scrolled}, która w CSS odpowiada za wyświetlenie dolnego obramowania \texttt{border-bottom}.
+\subsection{Konwerter liczb rzymskich (calc.js)}
+Skrypt implementuje algorytm przeliczania liczb arabskich na liczby systemu rzymskiego. Z oczywistych względów nie wylistowano obsługi przycisków i deklaracji zmiennych. 
+\begin{center}
+\begin{minipage}{0.85\textwidth}
+\begin{lstlisting}[style=styleEditorJS, caption={Logika przeliczania liczb arabskich na rzymskie}]
+function convert() {
+var val = parseInt(numberInput.value);
+if (isNaN(val) || val <= 0 || val > 3999) {
+    out.innerText = "Error";
+    return;
+}
+
+var numbers = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
+var roman = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"];
+var finalStr = "";
+
+for (var i = 0; i < numbers.length; i++) {
+    while (val >= numbers[i]) {
+        finalStr = finalStr + roman[i];
+        val = val - numbers[i];
+    }
+}
+out.innerText = finalStr;
+}
+\end{lstlisting}
+\end{minipage}
+\end{center}
+\textbf{Wyjaśnienie:} Algorytm sprawdza poprawność danych wejściowych (Zakres 1 - 3999), a następnie wykonuje pętle \texttt{for} do iteracji po tablicy zdefiniowanych progów liczbowych. Wewnętrzna pętla \texttt{while} odejmuje najwyższą możliwą wartość od liczby wejściowej i dopisuje odpowiadający jej znak rzymski do wyniku.
+\subsection{Interaktywna lista zadań (todo.js)}
+Skrypt demonstruje działanie listy zadań.
+\begin{center}
+\begin{minipage}{0.85\textwidth}
+\begin{lstlisting}[style=styleEditorJS, caption={Dynamiczne dodawanie i usuwanie zadań}]
+function addNewTask() {
+var text = inputField.value;
+if (text != "") {
+    var newItem = document.createElement('li');
+    newItem.className = 'todo-item';
+    newItem.innerHTML = "<span>" + text + "</span>";
+
+    newItem.onclick = function() {
+        this.remove();
+    };
+
+    myList.appendChild(newItem);
+    inputField.value = ""; 
+}
+}
+\end{lstlisting}
+\end{minipage}
+\end{center}
+\textbf{Wyjaśnienie:} Po aktywacji funkcji, skrypt tworzy w pamięci nowy element \texttt{li}, nadaje mu klasę stylu i wstrzykuje tekst pobrany z inputa. Każdemu elementowi przypisywana jest również funkcja \texttt{remove()}, wyzwalana po kliknięciu w dodany wcześniej element, co umożliwia selektywne usuwanie z listy.
+\subsection{Obsługa formularza i system alertów (form.js)}
+Skrypt odpowiada za weryfikację danych w formularzu oraz za wysyłanie powiadomień w przypadku błędnych danych lub poprawnie przesłanego formularza.
+\begin{center}
+\begin{minipage}{0.85\textwidth}
+\begin{lstlisting}[style=styleEditorJS, caption={Walidacja w formularzu i generowanie powiadomień}]
+function myAlert(msg, mode) {
+    var old = document.querySelector('.custom-alert');
+    if (old) { old.remove(); }
+
+    var box = document.createElement('div');
+    box.className = 'custom-alert ' + mode;
+    box.innerHTML = "<span>" + (mode === 'success' ? 'EMOTKA1' : 'EMOTKA2') + "</span> " + msg;
+    document.body.appendChild(box);
+
+    setTimeout(function() { box.classList.add('show'); }, 50);
+    setTimeout(function() { box.classList.remove('show'); }, 3000);
+}
+
+var contactForm = document.getElementById('contact-form');
+
+if (contactForm) {
+    contactForm.onsubmit = function(e) {
+        e.preventDefault();
+        var userEmail = document.getElementById('email').value;
+        
+        if (userEmail.indexOf("@") == -1 || userEmail.length < 5) {
+            myAlert("Adres email jest nieprawidłowy!", "error");
+            return;
+        }
+        myAlert("Wiadomość została przesłana.", "success"); 
+        contactForm.reset();
+    };
+}
+\end{lstlisting}
+\end{minipage}
+\end{center}
+\textbf{Wyjaśnienie:} Funkcja \texttt{myAlert} dynamicznie buduje okno powiadomienia w drzewie DOM, wykorzystując funkcję \texttt{setTimeout} do sterowania animacją pojawiania się i znikania klasy styulu. Skrypt do walidacji danych formularza blokuje domyślną wysyłkę formularza przy użyciu \texttt{e.preventDefault()} i przeprowadza test poprawności adres e-mail, imienia, wiadomości wywołując alert z odpowiednim statusem sukcesu albo błędu.
